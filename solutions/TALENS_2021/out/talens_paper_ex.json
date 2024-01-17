@@ -1,0 +1,122 @@
+{
+  "operationid": 1,
+  "productid": 196,
+  "code": "Command",
+  "pname": "Command",
+  "parentid": null,
+  "start_date": "2023-01-01 00:00:00.000000",
+  "delivery_date": "2023-02-01 00:00:00.000000",
+  "quantity": 1,
+  "name": "root",
+  "machines": [
+    {
+      "id": 1,
+      "name": "Machine_01",
+      "oee": 1,
+      "execution_time": 0,
+      "setup_time": 0
+    }
+  ],
+  "metainfo": {
+    "operations_list": [
+      1,
+      10,
+      11,
+      12,
+      13,
+      20,
+      21,
+      22,
+      23,
+      30,
+      31,
+      32,
+      33,
+      40,
+      41,
+      42,
+      43
+    ],
+    "machines_list": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "maintenances": [
+    ]
+  },
+
+  "children": [
+    {
+      "parentid": 1,  "operationid": 10, "productid": 10, "code": "J1-AS", "pname": "J1-AS",  "quantity": 1, "name": "J1-AS",
+      "machines": [ { "id": 2,  "name": "Machine_02", "oee": 1,  "execution_time": 3,  "setup_time": 0},
+        { "id": 3, "name": "Machine_03", "oee": 1,  "execution_time": 3, "setup_time": 0 }
+      ],
+      "children": [
+        {"parentid": 10, "operationid": 11, "productid": 11, "code": "J1-o1", "pname": "J1-o1", "quantity": 1, "name": "J1-o1",
+          "machines": [{"id": 4, "name": "Machine_04", "oee": 1, "execution_time": 2, "setup_time": 0}]
+        },
+        {"parentid": 10, "operationid": 12, "productid": 12, "code": "J1-o2", "pname": "J1-o2", "quantity": 1, "name": "J1-o2",
+          "machines": [{"id": 5, "name": "Machine_05", "oee": 1, "execution_time": 9, "setup_time": 0}]
+        },
+        {"parentid": 10, "operationid": 13, "productid": 13, "code": "J1-o3", "pname": "J1-o3", "quantity": 1, "name": "J1-o3",
+          "machines": [{"id": 6, "name": "Machine_06", "oee": 1, "execution_time": 7, "setup_time": 0}]
+        }
+      ]
+    },
+    {
+      "parentid": 1,  "operationid": 20, "productid": 20, "code": "J2-AS", "pname": "J2-AS",  "quantity": 1, "name": "J2-AS",
+      "machines": [ { "id": 2,  "name": "Machine_02", "oee": 1,  "execution_time": 18,  "setup_time": 0},
+        { "id": 3, "name": "Machine_03", "oee": 1,  "execution_time": 18, "setup_time": 0 }
+      ],
+      "children": [
+        {"parentid": 20, "operationid": 21, "productid": 21, "code": "J2-o1", "pname": "J2-o1", "quantity": 1, "name": "J2-o1",
+          "machines": [{"id": 4, "name": "Machine_04", "oee": 1, "execution_time": 10, "setup_time": 0}]
+        },
+        {"parentid": 20, "operationid": 22, "productid": 22, "code": "J2-o2", "pname": "J2-o2", "quantity": 1, "name": "J2-o2",
+          "machines": [{"id": 5, "name": "Machine_05", "oee": 1, "execution_time": 5, "setup_time": 0}]
+        },
+        {"parentid": 20, "operationid": 23, "productid": 23, "code": "J2-o3", "pname": "J2-o3", "quantity": 1, "name": "J2-o3",
+          "machines": [{"id": 6, "name": "Machine_06", "oee": 1, "execution_time": 5, "setup_time": 0}]
+        }
+      ]
+    },
+    {
+      "parentid": 1,  "operationid": 30, "productid": 30, "code": "J3-AS", "pname": "J3-AS",  "quantity": 1, "name": "J3-AS",
+      "machines": [ { "id": 2,  "name": "Machine_02", "oee": 1,  "execution_time": 25,  "setup_time": 0},
+        { "id": 3, "name": "Machine_03", "oee": 1,  "execution_time": 25, "setup_time": 0 }
+      ],
+      "children": [
+        {"parentid": 30, "operationid": 31, "productid": 31, "code": "J3-o1", "pname": "J3-o1", "quantity": 1, "name": "J3-o1",
+          "machines": [{"id": 4, "name": "Machine_04", "oee": 1, "execution_time": 5, "setup_time": 0}]
+        },
+        {"parentid": 30, "operationid": 32, "productid": 32, "code": "J3-o2", "pname": "J3-o2", "quantity": 1, "name": "J3-o2",
+          "machines": [{"id": 5, "name": "Machine_05", "oee": 1, "execution_time": 4, "setup_time": 0}]
+        },
+        {"parentid": 30, "operationid": 33, "productid": 33, "code": "J3-o3", "pname": "J3-o3", "quantity": 1, "name": "J3-o3",
+          "machines": [{"id": 6, "name": "Machine_06", "oee": 1, "execution_time": 8, "setup_time": 0}]
+        }
+      ]
+    },
+    {
+      "parentid": 1,  "operationid": 40, "productid": 40, "code": "J4-AS", "pname": "J4-AS",  "quantity": 1, "name": "J4-AS",
+      "machines": [ { "id": 2,  "name": "Machine_02", "oee": 1,  "execution_time": 17,  "setup_time": 0},
+        { "id": 3, "name": "Machine_03", "oee": 1,  "execution_time": 17, "setup_time": 0 }
+      ],
+      "children": [
+        {"parentid": 40, "operationid": 41, "productid": 41, "code": "J4-o1", "pname": "J4-o1", "quantity": 1, "name": "J4-o1",
+          "machines": [{"id": 4, "name": "Machine_04", "oee": 1, "execution_time": 4, "setup_time": 0}]
+        },
+        {"parentid": 40, "operationid": 42, "productid": 42, "code": "J4-o2", "pname": "J4-o2", "quantity": 1, "name": "J4-o2",
+          "machines": [{"id": 5, "name": "Machine_05", "oee": 1, "execution_time": 5, "setup_time": 0}]
+        },
+        {"parentid": 40, "operationid": 43, "productid": 43, "code": "J4-o3", "pname": "J4-o3", "quantity": 1, "name": "J4-o3",
+          "machines": [{"id": 6, "name": "Machine_06", "oee": 1, "execution_time": 9, "setup_time": 0}]
+        }
+      ]
+    }
+  ]
+}

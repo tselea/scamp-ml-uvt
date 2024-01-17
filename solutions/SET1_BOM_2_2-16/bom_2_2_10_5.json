@@ -1,0 +1,248 @@
+{
+  "operationid": 2,
+  "productid": 279,
+  "code": "YEXA",
+  "pname": "Fog lights",
+  "parentid": null,
+  "start_date": "2023-01-01 00:00:00.000000",
+  "delivery_date": "2023-02-01 00:00:00.000000",
+  "quantity": 7,
+  "machines": [
+    {
+      "id": 7,
+      "name": "Machine_07",
+      "oee": 0.865,
+      "execution_time": 138,
+      "setup_time": 5400
+    }
+  ],
+  "metainfo": {
+    "operations_list": [
+      2,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414
+    ],
+    "machines_list": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "maintenances": [
+      {
+        "id": 416,
+        "machineid": 1,
+        "start_date": "2023-01-20 22:00:00.000000",
+        "end_date": "2023-01-21 03:00:00.000000"
+      },
+      {
+        "id": 418,
+        "machineid": 4,
+        "start_date": "2023-01-28 02:00:00.000000",
+        "end_date": "2023-01-28 05:00:00.000000"
+      },
+      {
+        "id": 417,
+        "machineid": 6,
+        "start_date": "2023-01-19 07:00:00.000000",
+        "end_date": "2023-01-19 10:00:00.000000"
+      },
+      {
+        "id": 419,
+        "machineid": 6,
+        "start_date": "2023-01-27 20:00:00.000000",
+        "end_date": "2023-01-27 23:00:00.000000"
+      },
+      {
+        "id": 415,
+        "machineid": 7,
+        "start_date": "2023-01-12 16:00:00.000000",
+        "end_date": "2023-01-12 22:00:00.000000"
+      },
+      {
+        "id": 420,
+        "machineid": 7,
+        "start_date": "2023-01-25 10:00:00.000000",
+        "end_date": "2023-01-25 16:00:00.000000"
+      },
+      {
+        "id": 421,
+        "machineid": 8,
+        "start_date": "2023-01-27 22:00:00.000000",
+        "end_date": "2023-01-28 04:00:00.000000"
+      }
+    ]
+  },
+  "name": "root",
+  "children": [
+    {
+      "parentid": 2,
+      "operationid": 409,
+      "productid": 403,
+      "code": "SYAF",
+      "pname": "Navigation interface",
+      "quantity": 7,
+      "machines": [
+        {
+          "id": 3,
+          "name": "Machine_03",
+          "oee": 0.887,
+          "execution_time": 67,
+          "setup_time": 3600
+        },
+        {
+          "id": 4,
+          "name": "Machine_04",
+          "oee": 0.924,
+          "execution_time": 64,
+          "setup_time": 7200
+        },
+        {
+          "id": 6,
+          "name": "Machine_06",
+          "oee": 0.887,
+          "execution_time": 67,
+          "setup_time": 5400
+        },
+        {
+          "id": 8,
+          "name": "Machine_08",
+          "oee": 0.859,
+          "execution_time": 69,
+          "setup_time": 5400
+        }
+      ],
+      "name": "s0",
+      "children": [
+        {
+          "parentid": 409,
+          "operationid": 410,
+          "productid": 219,
+          "code": "DWHL",
+          "pname": "Brake linings",
+          "quantity": 5,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.862,
+              "execution_time": 139,
+              "setup_time": 7200
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.938,
+              "execution_time": 127,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s0"
+        },
+        {
+          "parentid": 409,
+          "operationid": 411,
+          "productid": 339,
+          "code": "LTSE",
+          "pname": "Plenum chamber water drain valve",
+          "quantity": 8,
+          "machines": [
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.924,
+              "execution_time": 129,
+              "setup_time": 5400
+            },
+            {
+              "id": 7,
+              "name": "Machine_07",
+              "oee": 0.865,
+              "execution_time": 138,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s1"
+        }
+      ]
+    },
+    {
+      "parentid": 2,
+      "operationid": 412,
+      "productid": 312,
+      "code": "NUVN",
+      "pname": "Block heater",
+      "quantity": 5,
+      "machines": [
+        {
+          "id": 3,
+          "name": "Machine_03",
+          "oee": 0.887,
+          "execution_time": 67,
+          "setup_time": 7200
+        },
+        {
+          "id": 6,
+          "name": "Machine_06",
+          "oee": 0.887,
+          "execution_time": 67,
+          "setup_time": 7200
+        },
+        {
+          "id": 7,
+          "name": "Machine_07",
+          "oee": 0.865,
+          "execution_time": 69,
+          "setup_time": 7200
+        }
+      ],
+      "name": "s1",
+      "children": [
+        {
+          "parentid": 412,
+          "operationid": 413,
+          "productid": 331,
+          "code": "TZWD",
+          "pname": "Brake master cylinder",
+          "quantity": 6,
+          "machines": [
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.83,
+              "execution_time": 144,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s0"
+        },
+        {
+          "parentid": 412,
+          "operationid": 414,
+          "productid": 358,
+          "code": "VVSW",
+          "pname": "Sequential manual gearbox",
+          "quantity": 4,
+          "machines": [
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.938,
+              "execution_time": 95,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s1"
+        }
+      ]
+    }
+  ]
+}

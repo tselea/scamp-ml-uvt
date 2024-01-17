@@ -1,0 +1,167 @@
+{
+  "operationid": 378,
+  "productid": 121,
+  "code": "RHCF",
+  "pname": "RHCF",
+  "parentid": null,
+  "start_date": "2022-08-25 00:00:00.000000",
+  "delivery_date": "2022-09-05 00:00:00.000000",
+  "priority": 5,
+  "quantity": 4,
+  "name": "root",
+  "operations_list": [
+    378,
+    379,
+    380,
+    381,
+    382,
+    383,
+    384,
+    385,
+    386,
+    387,
+    388,
+    389,
+    390,
+    391,
+    392
+  ],
+  "children": [
+    {
+      "parentid": 378,
+      "operationid": 379,
+      "productid": 131,
+      "code": "IYSA",
+      "pname": "IYSA",
+      "quantity": 2,
+      "children": [
+        {
+          "parentid": 379,
+          "operationid": 380,
+          "productid": 105,
+          "code": "WKIR",
+          "pname": "WKIR",
+          "quantity": 3,
+          "children": [
+            {
+              "parentid": 380,
+              "operationid": 381,
+              "productid": 134,
+              "code": "GTOT",
+              "pname": "GTOT",
+              "quantity": 4,
+              "children": [
+                {
+                  "parentid": 381,
+                  "operationid": 382,
+                  "productid": 132,
+                  "code": "LWJL",
+                  "pname": "LWJL",
+                  "quantity": 2,
+                  "children": [
+                    {
+                      "parentid": 382,
+                      "operationid": 383,
+                      "raw_material_id": 213,
+                      "raw_material_quantity": 10,
+                      "productid": 78,
+                      "code": "EVYN",
+                      "pname": "EVYN",
+                      "quantity": 3
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "parentid": 379,
+          "operationid": 384,
+          "productid": 21,
+          "code": "DCME",
+          "pname": "DCME",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "parentid": 378,
+      "operationid": 385,
+      "productid": 81,
+      "code": "DBBM",
+      "pname": "DBBM",
+      "quantity": 4,
+      "children": [
+        {
+          "parentid": 385,
+          "operationid": 386,
+          "productid": 13,
+          "code": "BONV",
+          "pname": "BONV",
+          "quantity": 1
+        },
+        {
+          "parentid": 385,
+          "operationid": 387,
+          "productid": 54,
+          "code": "TNKP",
+          "pname": "TNKP",
+          "quantity": 5,
+          "children": [
+            {
+              "parentid": 387,
+              "operationid": 388,
+              "productid": 68,
+              "code": "OVXD",
+              "pname": "OVXD",
+              "quantity": 2,
+              "children": [
+                {
+                  "parentid": 388,
+                  "operationid": 389,
+                  "productid": 161,
+                  "code": "LQPS",
+                  "pname": "LQPS",
+                  "quantity": 4,
+                  "children": [
+                    {
+                      "parentid": 389,
+                      "operationid": 390,
+                      "productid": 177,
+                      "code": "EBEK",
+                      "pname": "EBEK",
+                      "quantity": 1,
+                      "children": [
+                        {
+                          "parentid": 390,
+                          "operationid": 391,
+                          "productid": 123,
+                          "code": "RCUB",
+                          "pname": "RCUB",
+                          "quantity": 5,
+                          "children": [
+                            {
+                              "parentid": 391,
+                              "operationid": 392,
+                              "raw_material_id": 235,
+                              "raw_material_quantity": 2,
+                              "productid": 105,
+                              "code": "WKIR",
+                              "pname": "WKIR",
+                              "quantity": 5
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

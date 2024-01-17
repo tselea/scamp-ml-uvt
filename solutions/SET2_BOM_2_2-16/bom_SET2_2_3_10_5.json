@@ -1,0 +1,479 @@
+{
+  "operationid": 2,
+  "productid": 327,
+  "code": "RCAO",
+  "pname": "Head airbags",
+  "parentid": null,
+  "start_date": "2023-01-01 00:00:00.000000",
+  "delivery_date": "2023-03-01 00:00:00.000000",
+  "quantity": 10,
+  "machines": [
+    {
+      "id": 5,
+      "name": "Machine_05",
+      "oee": 0.818,
+      "execution_time": 73,
+      "setup_time": 7200
+    }
+  ],
+  "metainfo": {
+    "operations_list": [
+      2,
+      426,
+      427,
+      428,
+      429,
+      430,
+      431,
+      432,
+      433,
+      434,
+      435,
+      436,
+      437
+    ],
+    "machines_list": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "maintenances": [
+      {
+        "id": 444,
+        "machineid": 1,
+        "start_date": "2023-01-25 10:00:00.000000",
+        "end_date": "2023-01-25 16:00:00.000000"
+      },
+      {
+        "id": 452,
+        "machineid": 1,
+        "start_date": "2023-02-20 14:00:00.000000",
+        "end_date": "2023-02-20 17:00:00.000000"
+      },
+      {
+        "id": 438,
+        "machineid": 2,
+        "start_date": "2023-01-02 12:00:00.000000",
+        "end_date": "2023-01-02 15:00:00.000000"
+      },
+      {
+        "id": 441,
+        "machineid": 2,
+        "start_date": "2023-01-19 07:00:00.000000",
+        "end_date": "2023-01-19 10:00:00.000000"
+      },
+      {
+        "id": 445,
+        "machineid": 2,
+        "start_date": "2023-01-27 22:00:00.000000",
+        "end_date": "2023-01-28 04:00:00.000000"
+      },
+      {
+        "id": 447,
+        "machineid": 2,
+        "start_date": "2023-01-31 00:00:00.000000",
+        "end_date": "2023-01-31 06:00:00.000000"
+      },
+      {
+        "id": 453,
+        "machineid": 2,
+        "start_date": "2023-02-25 03:00:00.000000",
+        "end_date": "2023-02-25 06:00:00.000000"
+      },
+      {
+        "id": 446,
+        "machineid": 3,
+        "start_date": "2023-01-25 14:00:00.000000",
+        "end_date": "2023-01-25 17:00:00.000000"
+      },
+      {
+        "id": 454,
+        "machineid": 3,
+        "start_date": "2023-02-25 04:00:00.000000",
+        "end_date": "2023-02-25 08:00:00.000000"
+      },
+      {
+        "id": 449,
+        "machineid": 4,
+        "start_date": "2023-02-18 13:00:00.000000",
+        "end_date": "2023-02-18 17:00:00.000000"
+      },
+      {
+        "id": 455,
+        "machineid": 4,
+        "start_date": "2023-02-20 06:00:00.000000",
+        "end_date": "2023-02-20 12:00:00.000000"
+      },
+      {
+        "id": 439,
+        "machineid": 5,
+        "start_date": "2023-01-12 16:00:00.000000",
+        "end_date": "2023-01-12 22:00:00.000000"
+      },
+      {
+        "id": 448,
+        "machineid": 5,
+        "start_date": "2023-01-30 10:00:00.000000",
+        "end_date": "2023-01-30 13:00:00.000000"
+      },
+      {
+        "id": 456,
+        "machineid": 5,
+        "start_date": "2023-02-21 00:00:00.000000",
+        "end_date": "2023-02-21 03:00:00.000000"
+      },
+      {
+        "id": 440,
+        "machineid": 7,
+        "start_date": "2023-01-13 22:00:00.000000",
+        "end_date": "2023-01-14 03:00:00.000000"
+      },
+      {
+        "id": 450,
+        "machineid": 7,
+        "start_date": "2023-02-12 05:00:00.000000",
+        "end_date": "2023-02-12 11:00:00.000000"
+      },
+      {
+        "id": 442,
+        "machineid": 8,
+        "start_date": "2023-01-21 02:00:00.000000",
+        "end_date": "2023-01-21 05:00:00.000000"
+      },
+      {
+        "id": 451,
+        "machineid": 8,
+        "start_date": "2023-02-14 09:00:00.000000",
+        "end_date": "2023-02-14 12:00:00.000000"
+      },
+      {
+        "id": 457,
+        "machineid": 8,
+        "start_date": "2023-02-19 06:00:00.000000",
+        "end_date": "2023-02-19 12:00:00.000000"
+      },
+      {
+        "id": 443,
+        "machineid": 10,
+        "start_date": "2023-01-20 20:00:00.000000",
+        "end_date": "2023-01-20 23:00:00.000000"
+      }
+    ]
+  },
+  "name": "root",
+  "children": [
+    {
+      "parentid": 2,
+      "operationid": 426,
+      "productid": 324,
+      "code": "KIAQ",
+      "pname": "Air pump filter",
+      "quantity": 10,
+      "machines": [
+        {
+          "id": 6,
+          "name": "Machine_06",
+          "oee": 0.881,
+          "execution_time": 136,
+          "setup_time": 5400
+        },
+        {
+          "id": 8,
+          "name": "Machine_08",
+          "oee": 0.846,
+          "execution_time": 141,
+          "setup_time": 3600
+        },
+        {
+          "id": 9,
+          "name": "Machine_09",
+          "oee": 0.922,
+          "execution_time": 130,
+          "setup_time": 7200
+        }
+      ],
+      "name": "s0",
+      "children": [
+        {
+          "parentid": 426,
+          "operationid": 427,
+          "productid": 420,
+          "code": "SMOC",
+          "pname": "Power steering fluid",
+          "quantity": 10,
+          "machines": [
+            {
+              "id": 7,
+              "name": "Machine_07",
+              "oee": 0.905,
+              "execution_time": 66,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s0"
+        },
+        {
+          "parentid": 426,
+          "operationid": 428,
+          "productid": 333,
+          "code": "TZWD",
+          "pname": "Brake master cylinder",
+          "quantity": 10,
+          "machines": [
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.922,
+              "execution_time": 130,
+              "setup_time": 5400
+            }
+          ],
+          "name": "s1"
+        },
+        {
+          "parentid": 426,
+          "operationid": 429,
+          "productid": 236,
+          "code": "SNYV",
+          "pname": "Rear spoiler",
+          "quantity": 10,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.809,
+              "execution_time": 74,
+              "setup_time": 5400
+            },
+            {
+              "id": 6,
+              "name": "Machine_06",
+              "oee": 0.881,
+              "execution_time": 68,
+              "setup_time": 3600
+            },
+            {
+              "id": 7,
+              "name": "Machine_07",
+              "oee": 0.905,
+              "execution_time": 66,
+              "setup_time": 7200
+            },
+            {
+              "id": 8,
+              "name": "Machine_08",
+              "oee": 0.846,
+              "execution_time": 70,
+              "setup_time": 5400
+            },
+            {
+              "id": 10,
+              "name": "Machine_10",
+              "oee": 0.822,
+              "execution_time": 72,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s2"
+        }
+      ]
+    },
+    {
+      "parentid": 2,
+      "operationid": 430,
+      "productid": 292,
+      "code": "NJRN",
+      "pname": "Satellite communication",
+      "quantity": 10,
+      "machines": [
+        {
+          "id": 3,
+          "name": "Machine_03",
+          "oee": 0.877,
+          "execution_time": 102,
+          "setup_time": 7200
+        }
+      ],
+      "name": "s1",
+      "children": [
+        {
+          "parentid": 430,
+          "operationid": 431,
+          "productid": 356,
+          "code": "FXYM",
+          "pname": "Distributor cap",
+          "quantity": 10,
+          "machines": [
+            {
+              "id": 6,
+              "name": "Machine_06",
+              "oee": 0.881,
+              "execution_time": 136,
+              "setup_time": 7200
+            },
+            {
+              "id": 9,
+              "name": "Machine_09",
+              "oee": 0.922,
+              "execution_time": 130,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s0"
+        },
+        {
+          "parentid": 430,
+          "operationid": 432,
+          "productid": 350,
+          "code": "MANI",
+          "pname": "Heater",
+          "quantity": 10,
+          "machines": [
+            {
+              "id": 6,
+              "name": "Machine_06",
+              "oee": 0.881,
+              "execution_time": 68,
+              "setup_time": 5400
+            },
+            {
+              "id": 7,
+              "name": "Machine_07",
+              "oee": 0.905,
+              "execution_time": 66,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s1"
+        },
+        {
+          "parentid": 430,
+          "operationid": 433,
+          "productid": 329,
+          "code": "NGOT",
+          "pname": "Automatic door unlock",
+          "quantity": 10,
+          "machines": [
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.877,
+              "execution_time": 102,
+              "setup_time": 5400
+            }
+          ],
+          "name": "s2"
+        }
+      ]
+    },
+    {
+      "parentid": 2,
+      "operationid": 434,
+      "productid": 303,
+      "code": "ILJY",
+      "pname": "Radio data system",
+      "quantity": 10,
+      "machines": [
+        {
+          "id": 1,
+          "name": "Machine_01",
+          "oee": 0.809,
+          "execution_time": 74,
+          "setup_time": 5400
+        },
+        {
+          "id": 6,
+          "name": "Machine_06",
+          "oee": 0.881,
+          "execution_time": 68,
+          "setup_time": 7200
+        },
+        {
+          "id": 7,
+          "name": "Machine_07",
+          "oee": 0.905,
+          "execution_time": 66,
+          "setup_time": 3600
+        },
+        {
+          "id": 8,
+          "name": "Machine_08",
+          "oee": 0.846,
+          "execution_time": 70,
+          "setup_time": 3600
+        },
+        {
+          "id": 10,
+          "name": "Machine_10",
+          "oee": 0.822,
+          "execution_time": 72,
+          "setup_time": 5400
+        }
+      ],
+      "name": "s2",
+      "children": [
+        {
+          "parentid": 434,
+          "operationid": 435,
+          "productid": 348,
+          "code": "HUKC",
+          "pname": "Anti-theft",
+          "quantity": 10,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.809,
+              "execution_time": 148,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s0"
+        },
+        {
+          "parentid": 434,
+          "operationid": 436,
+          "productid": 317,
+          "code": "BHUC",
+          "pname": "Brake pedal spring",
+          "quantity": 10,
+          "machines": [
+            {
+              "id": 7,
+              "name": "Machine_07",
+              "oee": 0.905,
+              "execution_time": 99,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s1"
+        },
+        {
+          "parentid": 434,
+          "operationid": 437,
+          "productid": 375,
+          "code": "FOCN",
+          "pname": "Power extending mirrors",
+          "quantity": 10,
+          "machines": [
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.818,
+              "execution_time": 110,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s2"
+        }
+      ]
+    }
+  ]
+}

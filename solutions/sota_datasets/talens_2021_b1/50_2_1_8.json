@@ -1,0 +1,3369 @@
+{
+    "operationid": 1,
+    "productid": "prod_id_8296",
+    "code": "OVBA",
+    "machines": [],
+    "quantity": 1,
+    "metainfo": {
+        "operations_list": [
+            7802,
+            8512,
+            8737,
+            6669,
+            8600,
+            2619,
+            7040,
+            2060,
+            5092,
+            3843,
+            9685,
+            6727,
+            5298,
+            2270,
+            3624,
+            8292,
+            961,
+            9952,
+            1968,
+            7283,
+            8685,
+            2803,
+            8329,
+            817,
+            6602,
+            181,
+            3815,
+            3021,
+            5472,
+            4121,
+            5742,
+            8029,
+            8585,
+            7204,
+            7560,
+            4640,
+            4048,
+            3409,
+            4881,
+            2828,
+            9151,
+            8232,
+            1548,
+            2387,
+            4647,
+            1677,
+            7455,
+            5454,
+            7097,
+            3789,
+            8534,
+            4711,
+            4185,
+            6850,
+            8669,
+            467,
+            3033,
+            7358,
+            2580,
+            2795,
+            4471,
+            3908,
+            9959,
+            7799,
+            1767,
+            6341,
+            2944,
+            8081,
+            6989,
+            5645,
+            9891,
+            1902,
+            8136,
+            1178,
+            5085,
+            8218,
+            4842,
+            1639,
+            5397,
+            2993,
+            7373,
+            804,
+            1250,
+            4932,
+            6775,
+            385,
+            1474,
+            218,
+            9246,
+            7858,
+            2757,
+            7969,
+            8259,
+            1810,
+            4818,
+            1699,
+            3994,
+            2818,
+            5392,
+            2485,
+            2088,
+            4116,
+            4351,
+            3842,
+            1101,
+            2644,
+            9990,
+            1082,
+            1976,
+            8010,
+            991,
+            3352,
+            1689,
+            6789,
+            9599,
+            5671,
+            2927,
+            6867,
+            4495,
+            4254,
+            5787,
+            922,
+            509,
+            5544,
+            4601,
+            9486,
+            3184,
+            8890,
+            5786,
+            3426,
+            4164,
+            7471,
+            3631,
+            2445,
+            5466,
+            7253,
+            4764,
+            2095,
+            9929,
+            8578,
+            8441,
+            6287,
+            6181,
+            6546,
+            3520,
+            6259,
+            3768,
+            2476,
+            2670,
+            6696,
+            2221
+        ],
+        "machine_list": [
+            1,
+            2,
+            3
+        ]
+    },
+    "children": [
+        {
+            "parentid": 1,
+            "operationid": 8737,
+            "productid": 6902,
+            "code": "GQIK",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 8737,
+                    "operationid": 7802,
+                    "productid": 8296,
+                    "code": "OVBA",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 39
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 39
+                        }
+                    ]
+                },
+                {
+                    "parentid": 8737,
+                    "operationid": 8512,
+                    "productid": 854,
+                    "code": "CBJF",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 14
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 14
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 175
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 2619,
+            "productid": 2478,
+            "code": "JRER",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 2619,
+                    "operationid": 6669,
+                    "productid": 102,
+                    "code": "JSRV",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 58
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 58
+                        }
+                    ]
+                },
+                {
+                    "parentid": 2619,
+                    "operationid": 8600,
+                    "productid": 1823,
+                    "code": "KEBA",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 69
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 69
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 147
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 5092,
+            "productid": 6368,
+            "code": "NNHI",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 5092,
+                    "operationid": 7040,
+                    "productid": 2053,
+                    "code": "HEPN",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 18
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 18
+                        }
+                    ]
+                },
+                {
+                    "parentid": 5092,
+                    "operationid": 2060,
+                    "productid": 8923,
+                    "code": "LYCN",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 37
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 37
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 68
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 6727,
+            "productid": 6224,
+            "code": "YADJ",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 6727,
+                    "operationid": 3843,
+                    "productid": 8226,
+                    "code": "ZQVD",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 5
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 5
+                        }
+                    ]
+                },
+                {
+                    "parentid": 6727,
+                    "operationid": 9685,
+                    "productid": 4342,
+                    "code": "QAGX",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 87
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 87
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 199
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 3624,
+            "productid": 5605,
+            "code": "LAHQ",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 3624,
+                    "operationid": 5298,
+                    "productid": 9073,
+                    "code": "RKAO",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 71
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 71
+                        }
+                    ]
+                },
+                {
+                    "parentid": 3624,
+                    "operationid": 2270,
+                    "productid": 869,
+                    "code": "HFBW",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 4
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 4
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 146
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 9952,
+            "productid": 1983,
+            "code": "DXDD",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 9952,
+                    "operationid": 8292,
+                    "productid": 4986,
+                    "code": "PXGE",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 85
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 85
+                        }
+                    ]
+                },
+                {
+                    "parentid": 9952,
+                    "operationid": 961,
+                    "productid": 6452,
+                    "code": "BRNQ",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 74
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 74
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 165
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 8685,
+            "productid": 691,
+            "code": "GASO",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 8685,
+                    "operationid": 1968,
+                    "productid": 1530,
+                    "code": "YCUU",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 15
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 15
+                        }
+                    ]
+                },
+                {
+                    "parentid": 8685,
+                    "operationid": 7283,
+                    "productid": 1916,
+                    "code": "KEXN",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 70
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 70
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 155
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 817,
+            "productid": 9544,
+            "code": "LWJF",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 817,
+                    "operationid": 2803,
+                    "productid": 318,
+                    "code": "QTWH",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 101
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 101
+                        }
+                    ]
+                },
+                {
+                    "parentid": 817,
+                    "operationid": 8329,
+                    "productid": 6462,
+                    "code": "HQEB",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 26
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 26
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 53
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 3815,
+            "productid": 3249,
+            "code": "IDYL",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 3815,
+                    "operationid": 6602,
+                    "productid": 800,
+                    "code": "OJTJ",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 27
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 27
+                        }
+                    ]
+                },
+                {
+                    "parentid": 3815,
+                    "operationid": 181,
+                    "productid": 1165,
+                    "code": "GHTU",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 8
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 8
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 64
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 4121,
+            "productid": 4873,
+            "code": "DSUV",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 4121,
+                    "operationid": 3021,
+                    "productid": 5532,
+                    "code": "JQCW",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 16
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 16
+                        }
+                    ]
+                },
+                {
+                    "parentid": 4121,
+                    "operationid": 5472,
+                    "productid": 4892,
+                    "code": "LUSG",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 86
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 86
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 86
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 8585,
+            "productid": 653,
+            "code": "MNBI",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 8585,
+                    "operationid": 5742,
+                    "productid": 626,
+                    "code": "AKGM",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 16
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 16
+                        }
+                    ]
+                },
+                {
+                    "parentid": 8585,
+                    "operationid": 8029,
+                    "productid": 2552,
+                    "code": "MUWI",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 41
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 41
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 178
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 4640,
+            "productid": 9863,
+            "code": "DGIH",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 4640,
+                    "operationid": 7204,
+                    "productid": 344,
+                    "code": "DFJG",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 78
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 78
+                        }
+                    ]
+                },
+                {
+                    "parentid": 4640,
+                    "operationid": 7560,
+                    "productid": 926,
+                    "code": "HCGB",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 12
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 12
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 84
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 4881,
+            "productid": 9282,
+            "code": "LLSU",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 4881,
+                    "operationid": 4048,
+                    "productid": 905,
+                    "code": "CTPD",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 56
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 56
+                        }
+                    ]
+                },
+                {
+                    "parentid": 4881,
+                    "operationid": 3409,
+                    "productid": 4037,
+                    "code": "RBUQ",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 22
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 22
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 111
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 8232,
+            "productid": 7556,
+            "code": "RWUR",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 8232,
+                    "operationid": 2828,
+                    "productid": 2672,
+                    "code": "TJVK",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 76
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 76
+                        }
+                    ]
+                },
+                {
+                    "parentid": 8232,
+                    "operationid": 9151,
+                    "productid": 8637,
+                    "code": "OZCZ",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 73
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 73
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 137
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 4647,
+            "productid": 8825,
+            "code": "PYRF",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 4647,
+                    "operationid": 1548,
+                    "productid": 3374,
+                    "code": "GKSU",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 47
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 47
+                        }
+                    ]
+                },
+                {
+                    "parentid": 4647,
+                    "operationid": 2387,
+                    "productid": 8042,
+                    "code": "JNXS",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 40
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 40
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 155
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 5454,
+            "productid": 8978,
+            "code": "RSSB",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 5454,
+                    "operationid": 1677,
+                    "productid": 1034,
+                    "code": "AWQD",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 20
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 20
+                        }
+                    ]
+                },
+                {
+                    "parentid": 5454,
+                    "operationid": 7455,
+                    "productid": 1269,
+                    "code": "XMBZ",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 27
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 27
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 142
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 8534,
+            "productid": 5244,
+            "code": "PJMY",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 8534,
+                    "operationid": 7097,
+                    "productid": 8889,
+                    "code": "VGUQ",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 68
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 68
+                        }
+                    ]
+                },
+                {
+                    "parentid": 8534,
+                    "operationid": 3789,
+                    "productid": 812,
+                    "code": "NNIC",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 92
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 92
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 44
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 6850,
+            "productid": 9823,
+            "code": "PSOK",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 6850,
+                    "operationid": 4711,
+                    "productid": 4162,
+                    "code": "LJJA",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 34
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 34
+                        }
+                    ]
+                },
+                {
+                    "parentid": 6850,
+                    "operationid": 4185,
+                    "productid": 9954,
+                    "code": "EIDC",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 58
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 58
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 67
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 3033,
+            "productid": 3132,
+            "code": "TATM",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 3033,
+                    "operationid": 8669,
+                    "productid": 9472,
+                    "code": "GMCY",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 30
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 30
+                        }
+                    ]
+                },
+                {
+                    "parentid": 3033,
+                    "operationid": 467,
+                    "productid": 3189,
+                    "code": "WMQW",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 40
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 40
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 180
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 2795,
+            "productid": 7474,
+            "code": "ZDIM",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 2795,
+                    "operationid": 7358,
+                    "productid": 7636,
+                    "code": "AGYE",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 62
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 62
+                        }
+                    ]
+                },
+                {
+                    "parentid": 2795,
+                    "operationid": 2580,
+                    "productid": 7629,
+                    "code": "ORLR",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 33
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 33
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 125
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 9959,
+            "productid": 4297,
+            "code": "KGJU",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 9959,
+                    "operationid": 4471,
+                    "productid": 633,
+                    "code": "EUGM",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 43
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 43
+                        }
+                    ]
+                },
+                {
+                    "parentid": 9959,
+                    "operationid": 3908,
+                    "productid": 2368,
+                    "code": "UJNS",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 5
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 5
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 106
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 6341,
+            "productid": 4430,
+            "code": "BRNP",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 6341,
+                    "operationid": 7799,
+                    "productid": 4922,
+                    "code": "CRSI",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 93
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 93
+                        }
+                    ]
+                },
+                {
+                    "parentid": 6341,
+                    "operationid": 1767,
+                    "productid": 6565,
+                    "code": "BZMI",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 91
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 91
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 95
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 6989,
+            "productid": 5375,
+            "code": "KHQO",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 6989,
+                    "operationid": 2944,
+                    "productid": 4313,
+                    "code": "JEGT",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 13
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 13
+                        }
+                    ]
+                },
+                {
+                    "parentid": 6989,
+                    "operationid": 8081,
+                    "productid": 145,
+                    "code": "WLUI",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 95
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 95
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 188
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 1902,
+            "productid": 7534,
+            "code": "KHDI",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 1902,
+                    "operationid": 5645,
+                    "productid": 1410,
+                    "code": "SXQP",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 33
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 33
+                        }
+                    ]
+                },
+                {
+                    "parentid": 1902,
+                    "operationid": 9891,
+                    "productid": 7867,
+                    "code": "YDAG",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 31
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 31
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 108
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 5085,
+            "productid": 4208,
+            "code": "AJEB",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 5085,
+                    "operationid": 8136,
+                    "productid": 2139,
+                    "code": "ARSK",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 29
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 29
+                        }
+                    ]
+                },
+                {
+                    "parentid": 5085,
+                    "operationid": 1178,
+                    "productid": 8443,
+                    "code": "YMVS",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 41
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 41
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 200
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 1639,
+            "productid": 2813,
+            "code": "VIMX",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 1639,
+                    "operationid": 8218,
+                    "productid": 9267,
+                    "code": "CSIS",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 11
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 11
+                        }
+                    ]
+                },
+                {
+                    "parentid": 1639,
+                    "operationid": 4842,
+                    "productid": 4921,
+                    "code": "IBYV",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 56
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 56
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 176
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 7373,
+            "productid": 8638,
+            "code": "HKGO",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 7373,
+                    "operationid": 5397,
+                    "productid": 4944,
+                    "code": "OVVL",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 52
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 52
+                        }
+                    ]
+                },
+                {
+                    "parentid": 7373,
+                    "operationid": 2993,
+                    "productid": 2805,
+                    "code": "MRPT",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 9
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 9
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 165
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 4932,
+            "productid": 5345,
+            "code": "GKZM",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 4932,
+                    "operationid": 804,
+                    "productid": 5624,
+                    "code": "VTGR",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 64
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 64
+                        }
+                    ]
+                },
+                {
+                    "parentid": 4932,
+                    "operationid": 1250,
+                    "productid": 353,
+                    "code": "WALV",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 50
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 50
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 191
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 1474,
+            "productid": 2910,
+            "code": "YCIY",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 1474,
+                    "operationid": 6775,
+                    "productid": 5559,
+                    "code": "QVRG",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 23
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 23
+                        }
+                    ]
+                },
+                {
+                    "parentid": 1474,
+                    "operationid": 385,
+                    "productid": 5402,
+                    "code": "ISZL",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 83
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 83
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 169
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 7858,
+            "productid": 1033,
+            "code": "SWZN",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 7858,
+                    "operationid": 218,
+                    "productid": 2786,
+                    "code": "LRVD",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 57
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 57
+                        }
+                    ]
+                },
+                {
+                    "parentid": 7858,
+                    "operationid": 9246,
+                    "productid": 9264,
+                    "code": "UNMB",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 50
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 50
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 148
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 8259,
+            "productid": 2973,
+            "code": "NIFV",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 8259,
+                    "operationid": 2757,
+                    "productid": 8370,
+                    "code": "IEVS",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 55
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 55
+                        }
+                    ]
+                },
+                {
+                    "parentid": 8259,
+                    "operationid": 7969,
+                    "productid": 7498,
+                    "code": "FHTI",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 95
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 95
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 181
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 1699,
+            "productid": 4466,
+            "code": "XRKO",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 1699,
+                    "operationid": 1810,
+                    "productid": 8960,
+                    "code": "XNZK",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 95
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 95
+                        }
+                    ]
+                },
+                {
+                    "parentid": 1699,
+                    "operationid": 4818,
+                    "productid": 9142,
+                    "code": "YOPE",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 35
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 35
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 139
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 5392,
+            "productid": 7289,
+            "code": "XECA",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 5392,
+                    "operationid": 3994,
+                    "productid": 4307,
+                    "code": "LNPX",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 17
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 17
+                        }
+                    ]
+                },
+                {
+                    "parentid": 5392,
+                    "operationid": 2818,
+                    "productid": 6214,
+                    "code": "KBCI",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 56
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 56
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 101
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 4116,
+            "productid": 3153,
+            "code": "QAWS",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 4116,
+                    "operationid": 2485,
+                    "productid": 501,
+                    "code": "UQAN",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 32
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 32
+                        }
+                    ]
+                },
+                {
+                    "parentid": 4116,
+                    "operationid": 2088,
+                    "productid": 8862,
+                    "code": "ZQAT",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 9
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 9
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 68
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 1101,
+            "productid": 7032,
+            "code": "YKTC",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 1101,
+                    "operationid": 4351,
+                    "productid": 3910,
+                    "code": "XQBD",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 79
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 79
+                        }
+                    ]
+                },
+                {
+                    "parentid": 1101,
+                    "operationid": 3842,
+                    "productid": 4760,
+                    "code": "PDSA",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 37
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 37
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 124
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 1082,
+            "productid": 8407,
+            "code": "GQSN",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 1082,
+                    "operationid": 2644,
+                    "productid": 5644,
+                    "code": "TKXP",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 71
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 71
+                        }
+                    ]
+                },
+                {
+                    "parentid": 1082,
+                    "operationid": 9990,
+                    "productid": 2932,
+                    "code": "FTGR",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 8
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 8
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 37
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 991,
+            "productid": 1645,
+            "code": "YZVO",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 991,
+                    "operationid": 1976,
+                    "productid": 8046,
+                    "code": "MWYI",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 36
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 36
+                        }
+                    ]
+                },
+                {
+                    "parentid": 991,
+                    "operationid": 8010,
+                    "productid": 7167,
+                    "code": "ORKO",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 21
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 21
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 172
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 6789,
+            "productid": 8343,
+            "code": "CMDF",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 6789,
+                    "operationid": 3352,
+                    "productid": 1700,
+                    "code": "HGQO",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 4
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 4
+                        }
+                    ]
+                },
+                {
+                    "parentid": 6789,
+                    "operationid": 1689,
+                    "productid": 8711,
+                    "code": "DPGQ",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 13
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 13
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 51
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 2927,
+            "productid": 7585,
+            "code": "THLA",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 2927,
+                    "operationid": 9599,
+                    "productid": 5702,
+                    "code": "CJXD",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 82
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 82
+                        }
+                    ]
+                },
+                {
+                    "parentid": 2927,
+                    "operationid": 5671,
+                    "productid": 4167,
+                    "code": "LZFH",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 81
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 81
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 113
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 4254,
+            "productid": 554,
+            "code": "APFN",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 4254,
+                    "operationid": 6867,
+                    "productid": 5955,
+                    "code": "ZLFY",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 60
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 60
+                        }
+                    ]
+                },
+                {
+                    "parentid": 4254,
+                    "operationid": 4495,
+                    "productid": 5909,
+                    "code": "QOPL",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 72
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 72
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 18
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 509,
+            "productid": 2094,
+            "code": "DDMY",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 509,
+                    "operationid": 5787,
+                    "productid": 6388,
+                    "code": "ELQP",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 66
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 66
+                        }
+                    ]
+                },
+                {
+                    "parentid": 509,
+                    "operationid": 922,
+                    "productid": 3785,
+                    "code": "XIPP",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 58
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 58
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 92
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 9486,
+            "productid": 8175,
+            "code": "MIQC",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 9486,
+                    "operationid": 5544,
+                    "productid": 915,
+                    "code": "XAOZ",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 22
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 22
+                        }
+                    ]
+                },
+                {
+                    "parentid": 9486,
+                    "operationid": 4601,
+                    "productid": 4718,
+                    "code": "LFWL",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 80
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 80
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 75
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 5786,
+            "productid": 5428,
+            "code": "IYXA",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 5786,
+                    "operationid": 3184,
+                    "productid": 7081,
+                    "code": "LNTO",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 66
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 66
+                        }
+                    ]
+                },
+                {
+                    "parentid": 5786,
+                    "operationid": 8890,
+                    "productid": 5021,
+                    "code": "NVTG",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 35
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 35
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 15
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 7471,
+            "productid": 9061,
+            "code": "GICG",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 7471,
+                    "operationid": 3426,
+                    "productid": 6746,
+                    "code": "RTDT",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 32
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 32
+                        }
+                    ]
+                },
+                {
+                    "parentid": 7471,
+                    "operationid": 4164,
+                    "productid": 572,
+                    "code": "ENPM",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 95
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 95
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 3
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 5466,
+            "productid": 6536,
+            "code": "IYCV",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 5466,
+                    "operationid": 3631,
+                    "productid": 5069,
+                    "code": "ZPMV",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 39
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 39
+                        }
+                    ]
+                },
+                {
+                    "parentid": 5466,
+                    "operationid": 2445,
+                    "productid": 6693,
+                    "code": "WKDH",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 22
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 22
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 203
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 2095,
+            "productid": 181,
+            "code": "WOGY",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 2095,
+                    "operationid": 7253,
+                    "productid": 8977,
+                    "code": "STWD",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 50
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 50
+                        }
+                    ]
+                },
+                {
+                    "parentid": 2095,
+                    "operationid": 4764,
+                    "productid": 589,
+                    "code": "EYJD",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 86
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 86
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 27
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 8441,
+            "productid": 6336,
+            "code": "SWKL",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 8441,
+                    "operationid": 9929,
+                    "productid": 7589,
+                    "code": "EPQT",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 35
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 35
+                        }
+                    ]
+                },
+                {
+                    "parentid": 8441,
+                    "operationid": 8578,
+                    "productid": 6334,
+                    "code": "QACQ",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 54
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 54
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 155
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 6546,
+            "productid": 7747,
+            "code": "HCEU",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 6546,
+                    "operationid": 6287,
+                    "productid": 9794,
+                    "code": "KTZK",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 67
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 67
+                        }
+                    ]
+                },
+                {
+                    "parentid": 6546,
+                    "operationid": 6181,
+                    "productid": 1352,
+                    "code": "JUCW",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 22
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 22
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 59
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 3768,
+            "productid": 1832,
+            "code": "NUDP",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 3768,
+                    "operationid": 3520,
+                    "productid": 9346,
+                    "code": "DGMC",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 90
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 90
+                        }
+                    ]
+                },
+                {
+                    "parentid": 3768,
+                    "operationid": 6259,
+                    "productid": 1387,
+                    "code": "XQPY",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 53
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 53
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 168
+                }
+            ]
+        },
+        {
+            "parentid": 1,
+            "operationid": 6696,
+            "productid": 5770,
+            "code": "JCTT",
+            "quantity": 1,
+            "children": [
+                {
+                    "parentid": 6696,
+                    "operationid": 2476,
+                    "productid": 2493,
+                    "code": "BMBW",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 66
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 66
+                        }
+                    ]
+                },
+                {
+                    "parentid": 6696,
+                    "operationid": 2670,
+                    "productid": 7979,
+                    "code": "EIMJ",
+                    "quantity": 1,
+                    "machines": [
+                        {
+                            "id": 1,
+                            "name": "Machine_1",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 15
+                        },
+                        {
+                            "id": 2,
+                            "name": "Machine_2",
+                            "setup_time": 0,
+                            "oee": 1,
+                            "execution_time": 15
+                        }
+                    ]
+                }
+            ],
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_3",
+                    "setup_time": 0,
+                    "oee": 1,
+                    "execution_time": 110
+                }
+            ]
+        }
+    ]
+}

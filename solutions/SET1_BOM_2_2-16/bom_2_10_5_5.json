@@ -1,0 +1,3926 @@
+{
+  "operationid": 17,
+  "productid": 4075,
+  "code": "BGBK",
+  "pname": "Reverse tilt mirrors",
+  "parentid": null,
+  "start_date": "2023-01-01 00:00:00.000000",
+  "delivery_date": "2023-02-01 00:00:00.000000",
+  "quantity": 7,
+  "machines": [
+    {
+      "id": 2,
+      "name": "Machine_02",
+      "oee": 0.977,
+      "execution_time": 92,
+      "setup_time": 5400
+    },
+    {
+      "id": 3,
+      "name": "Machine_03",
+      "oee": 0.869,
+      "execution_time": 103,
+      "setup_time": 7200
+    },
+    {
+      "id": 4,
+      "name": "Machine_04",
+      "oee": 0.923,
+      "execution_time": 97,
+      "setup_time": 3600
+    },
+    {
+      "id": 5,
+      "name": "Machine_05",
+      "oee": 0.929,
+      "execution_time": 96,
+      "setup_time": 3600
+    }
+  ],
+  "metainfo": {
+    "operations_list": [
+      17,
+      4171,
+      4172,
+      4173,
+      4174,
+      4175,
+      4176,
+      4177,
+      4178,
+      4179,
+      4180,
+      4181,
+      4182,
+      4183,
+      4184,
+      4185,
+      4186,
+      4187,
+      4188,
+      4189,
+      4190,
+      4191,
+      4192,
+      4193,
+      4194,
+      4195,
+      4196,
+      4197,
+      4198,
+      4199,
+      4200,
+      4201,
+      4202,
+      4203,
+      4204,
+      4205,
+      4206,
+      4207,
+      4208,
+      4209,
+      4210,
+      4211,
+      4212,
+      4213,
+      4214,
+      4215,
+      4216,
+      4217,
+      4218,
+      4219,
+      4220,
+      4221,
+      4222,
+      4223,
+      4224,
+      4225,
+      4226,
+      4227,
+      4228,
+      4229,
+      4230,
+      4231,
+      4232,
+      4233,
+      4234,
+      4235,
+      4236,
+      4237,
+      4238,
+      4239,
+      4240,
+      4241,
+      4242,
+      4243,
+      4244,
+      4245,
+      4246,
+      4247,
+      4248,
+      4249,
+      4250,
+      4251,
+      4252,
+      4253,
+      4254,
+      4255,
+      4256,
+      4257,
+      4258,
+      4259,
+      4260,
+      4261,
+      4262,
+      4263,
+      4264,
+      4265,
+      4266,
+      4267,
+      4268,
+      4269,
+      4270,
+      4271,
+      4272,
+      4273,
+      4274,
+      4275,
+      4276,
+      4277,
+      4278,
+      4279,
+      4280
+    ],
+    "machines_list": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "maintenances": [
+      {
+        "id": 4281,
+        "machineid": 1,
+        "start_date": "2023-01-01 04:00:00.000000",
+        "end_date": "2023-01-01 10:00:00.000000"
+      },
+      {
+        "id": 4282,
+        "machineid": 2,
+        "start_date": "2023-01-01 12:00:00.000000",
+        "end_date": "2023-01-01 18:00:00.000000"
+      },
+      {
+        "id": 4283,
+        "machineid": 3,
+        "start_date": "2023-01-06 04:00:00.000000",
+        "end_date": "2023-01-06 10:00:00.000000"
+      },
+      {
+        "id": 4284,
+        "machineid": 3,
+        "start_date": "2023-01-17 02:00:00.000000",
+        "end_date": "2023-01-17 08:00:00.000000"
+      },
+      {
+        "id": 4285,
+        "machineid": 4,
+        "start_date": "2023-01-17 10:00:00.000000",
+        "end_date": "2023-01-17 16:00:00.000000"
+      }
+    ]
+  },
+  "name": "root",
+  "children": [
+    {
+      "parentid": 17,
+      "operationid": 4171,
+      "productid": 4165,
+      "code": "JIHA",
+      "pname": "Head airbags",
+      "quantity": 7,
+      "machines": [
+        {
+          "id": 2,
+          "name": "Machine_02",
+          "oee": 0.977,
+          "execution_time": 61,
+          "setup_time": 7200
+        },
+        {
+          "id": 4,
+          "name": "Machine_04",
+          "oee": 0.923,
+          "execution_time": 65,
+          "setup_time": 7200
+        }
+      ],
+      "name": "s0",
+      "children": [
+        {
+          "parentid": 4171,
+          "operationid": 4172,
+          "productid": 3981,
+          "code": "KKZL",
+          "pname": "Repair kit",
+          "quantity": 5,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 128,
+              "setup_time": 7200
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 122,
+              "setup_time": 5400
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 138,
+              "setup_time": 7200
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 130,
+              "setup_time": 7200
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 129,
+              "setup_time": 5400
+            }
+          ],
+          "name": "s0"
+        },
+        {
+          "parentid": 4171,
+          "operationid": 4173,
+          "productid": 4101,
+          "code": "XHSH",
+          "pname": "Coolant",
+          "quantity": 8,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 64,
+              "setup_time": 7200
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 69,
+              "setup_time": 3600
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 65,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s1"
+        },
+        {
+          "parentid": 4171,
+          "operationid": 4174,
+          "productid": 4074,
+          "code": "WCIE",
+          "pname": "Oxygen sensor",
+          "quantity": 5,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 64,
+              "setup_time": 5400
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 61,
+              "setup_time": 5400
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 69,
+              "setup_time": 5400
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 65,
+              "setup_time": 5400
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 64,
+              "setup_time": 5400
+            }
+          ],
+          "name": "s2"
+        },
+        {
+          "parentid": 4171,
+          "operationid": 4175,
+          "productid": 4093,
+          "code": "OEKA",
+          "pname": "Retractable mirrors",
+          "quantity": 6,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 64,
+              "setup_time": 5400
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 61,
+              "setup_time": 5400
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 69,
+              "setup_time": 7200
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 65,
+              "setup_time": 5400
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 64,
+              "setup_time": 5400
+            }
+          ],
+          "name": "s3"
+        },
+        {
+          "parentid": 4171,
+          "operationid": 4176,
+          "productid": 4120,
+          "code": "NBOL",
+          "pname": "Oxygen sensor",
+          "quantity": 4,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 64,
+              "setup_time": 5400
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 69,
+              "setup_time": 5400
+            }
+          ],
+          "name": "s4"
+        },
+        {
+          "parentid": 4171,
+          "operationid": 4177,
+          "productid": 4100,
+          "code": "QFVG",
+          "pname": "Plenum chamber water drain valve",
+          "quantity": 3,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 96,
+              "setup_time": 5400
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 103,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s5"
+        },
+        {
+          "parentid": 4171,
+          "operationid": 4178,
+          "productid": 4043,
+          "code": "AQCV",
+          "pname": "Automatic transaxle",
+          "quantity": 3,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 96,
+              "setup_time": 3600
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 92,
+              "setup_time": 3600
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 103,
+              "setup_time": 7200
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 97,
+              "setup_time": 5400
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 96,
+              "setup_time": 5400
+            }
+          ],
+          "name": "s6"
+        },
+        {
+          "parentid": 4171,
+          "operationid": 4179,
+          "productid": 4164,
+          "code": "YKDV",
+          "pname": "AC drain hose",
+          "quantity": 2,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 96,
+              "setup_time": 3600
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 92,
+              "setup_time": 7200
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 103,
+              "setup_time": 5400
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 97,
+              "setup_time": 5400
+            }
+          ],
+          "name": "s7"
+        },
+        {
+          "parentid": 4171,
+          "operationid": 4180,
+          "productid": 4129,
+          "code": "LSEM",
+          "pname": "Lip spoiler",
+          "quantity": 5,
+          "machines": [
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 130,
+              "setup_time": 7200
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 129,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s8"
+        },
+        {
+          "parentid": 4171,
+          "operationid": 4181,
+          "productid": 4107,
+          "code": "SLLA",
+          "pname": "Auto-delay headlights",
+          "quantity": 10,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 64,
+              "setup_time": 5400
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 61,
+              "setup_time": 7200
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 69,
+              "setup_time": 3600
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 65,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s9"
+        }
+      ]
+    },
+    {
+      "parentid": 17,
+      "operationid": 4182,
+      "productid": 4008,
+      "code": "PYEA",
+      "pname": "Adjustable suspension",
+      "quantity": 5,
+      "machines": [
+        {
+          "id": 1,
+          "name": "Machine_01",
+          "oee": 0.935,
+          "execution_time": 64,
+          "setup_time": 7200
+        },
+        {
+          "id": 3,
+          "name": "Machine_03",
+          "oee": 0.869,
+          "execution_time": 69,
+          "setup_time": 5400
+        },
+        {
+          "id": 4,
+          "name": "Machine_04",
+          "oee": 0.923,
+          "execution_time": 65,
+          "setup_time": 3600
+        },
+        {
+          "id": 5,
+          "name": "Machine_05",
+          "oee": 0.929,
+          "execution_time": 64,
+          "setup_time": 5400
+        }
+      ],
+      "name": "s1",
+      "children": [
+        {
+          "parentid": 4182,
+          "operationid": 4183,
+          "productid": 3996,
+          "code": "RTHA",
+          "pname": "Distributor rotor",
+          "quantity": 2,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 64,
+              "setup_time": 7200
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 61,
+              "setup_time": 7200
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 69,
+              "setup_time": 5400
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 65,
+              "setup_time": 7200
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 64,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s0"
+        },
+        {
+          "parentid": 4182,
+          "operationid": 4184,
+          "productid": 4146,
+          "code": "YNRX",
+          "pname": "Interior lighting",
+          "quantity": 6,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 96,
+              "setup_time": 3600
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 103,
+              "setup_time": 3600
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 97,
+              "setup_time": 3600
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 96,
+              "setup_time": 5400
+            }
+          ],
+          "name": "s1"
+        },
+        {
+          "parentid": 4182,
+          "operationid": 4185,
+          "productid": 4091,
+          "code": "FEKX",
+          "pname": "A-pillar",
+          "quantity": 9,
+          "machines": [
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 103,
+              "setup_time": 7200
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 96,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s2"
+        },
+        {
+          "parentid": 4182,
+          "operationid": 4186,
+          "productid": 4061,
+          "code": "OTCN",
+          "pname": "Liftgate window",
+          "quantity": 7,
+          "machines": [
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 122,
+              "setup_time": 7200
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 130,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s3"
+        },
+        {
+          "parentid": 4182,
+          "operationid": 4187,
+          "productid": 4051,
+          "code": "UWQV",
+          "pname": "Precrash system",
+          "quantity": 10,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 64,
+              "setup_time": 3600
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 61,
+              "setup_time": 7200
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 69,
+              "setup_time": 5400
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 65,
+              "setup_time": 5400
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 64,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s4"
+        },
+        {
+          "parentid": 4182,
+          "operationid": 4188,
+          "productid": 4134,
+          "code": "CENS",
+          "pname": "Privacy glass",
+          "quantity": 4,
+          "machines": [
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 130,
+              "setup_time": 7200
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 129,
+              "setup_time": 5400
+            }
+          ],
+          "name": "s5"
+        },
+        {
+          "parentid": 4182,
+          "operationid": 4189,
+          "productid": 4112,
+          "code": "CRFI",
+          "pname": "Cabin lighting",
+          "quantity": 8,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 96,
+              "setup_time": 7200
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 92,
+              "setup_time": 5400
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 103,
+              "setup_time": 5400
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 97,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s6"
+        },
+        {
+          "parentid": 4182,
+          "operationid": 4190,
+          "productid": 4084,
+          "code": "WETT",
+          "pname": "Air filter",
+          "quantity": 9,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 64,
+              "setup_time": 7200
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 61,
+              "setup_time": 7200
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 69,
+              "setup_time": 3600
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 65,
+              "setup_time": 7200
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 64,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s7"
+        },
+        {
+          "parentid": 4182,
+          "operationid": 4191,
+          "productid": 4037,
+          "code": "RKDQ",
+          "pname": "Clutch lines & hoses",
+          "quantity": 1,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 128,
+              "setup_time": 7200
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 122,
+              "setup_time": 7200
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 138,
+              "setup_time": 3600
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 130,
+              "setup_time": 5400
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 129,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s8"
+        },
+        {
+          "parentid": 4182,
+          "operationid": 4192,
+          "productid": 4111,
+          "code": "BRWX",
+          "pname": "Rear HVAC",
+          "quantity": 1,
+          "machines": [
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 64,
+              "setup_time": 5400
+            }
+          ],
+          "name": "s9"
+        }
+      ]
+    },
+    {
+      "parentid": 17,
+      "operationid": 4193,
+      "productid": 3994,
+      "code": "DGOM",
+      "pname": "Drive belt",
+      "quantity": 7,
+      "machines": [
+        {
+          "id": 2,
+          "name": "Machine_02",
+          "oee": 0.977,
+          "execution_time": 122,
+          "setup_time": 7200
+        },
+        {
+          "id": 5,
+          "name": "Machine_05",
+          "oee": 0.929,
+          "execution_time": 129,
+          "setup_time": 3600
+        }
+      ],
+      "name": "s2",
+      "children": [
+        {
+          "parentid": 4193,
+          "operationid": 4194,
+          "productid": 4152,
+          "code": "IWXT",
+          "pname": "Brake linings",
+          "quantity": 1,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 64,
+              "setup_time": 7200
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 61,
+              "setup_time": 3600
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 69,
+              "setup_time": 7200
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 65,
+              "setup_time": 3600
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 64,
+              "setup_time": 5400
+            }
+          ],
+          "name": "s0"
+        },
+        {
+          "parentid": 4193,
+          "operationid": 4195,
+          "productid": 4127,
+          "code": "TKAP",
+          "pname": "Pilot bearing",
+          "quantity": 8,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 96,
+              "setup_time": 3600
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 92,
+              "setup_time": 3600
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 103,
+              "setup_time": 7200
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 97,
+              "setup_time": 3600
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 96,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s1"
+        },
+        {
+          "parentid": 4193,
+          "operationid": 4196,
+          "productid": 4056,
+          "code": "IAQB",
+          "pname": "Brush guard",
+          "quantity": 4,
+          "machines": [
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 92,
+              "setup_time": 7200
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 103,
+              "setup_time": 5400
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 97,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s2"
+        },
+        {
+          "parentid": 4193,
+          "operationid": 4197,
+          "productid": 4157,
+          "code": "QOBP",
+          "pname": "PCV valve",
+          "quantity": 6,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 96,
+              "setup_time": 7200
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 92,
+              "setup_time": 7200
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 97,
+              "setup_time": 5400
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 96,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s3"
+        },
+        {
+          "parentid": 4193,
+          "operationid": 4198,
+          "productid": 4151,
+          "code": "VEEA",
+          "pname": "Navigation interface",
+          "quantity": 2,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 128,
+              "setup_time": 5400
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 130,
+              "setup_time": 7200
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 129,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s4"
+        },
+        {
+          "parentid": 4193,
+          "operationid": 4199,
+          "productid": 4019,
+          "code": "VVXD",
+          "pname": "Seat adjustment",
+          "quantity": 10,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 64,
+              "setup_time": 3600
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 61,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s5"
+        },
+        {
+          "parentid": 4193,
+          "operationid": 4200,
+          "productid": 4027,
+          "code": "ESNJ",
+          "pname": "Power steering",
+          "quantity": 4,
+          "machines": [
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 69,
+              "setup_time": 3600
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 65,
+              "setup_time": 7200
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 64,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s6"
+        },
+        {
+          "parentid": 4193,
+          "operationid": 4201,
+          "productid": 4007,
+          "code": "ZLNB",
+          "pname": "Parking lights",
+          "quantity": 9,
+          "machines": [
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 92,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s7"
+        },
+        {
+          "parentid": 4193,
+          "operationid": 4202,
+          "productid": 4085,
+          "code": "UBPC",
+          "pname": "Drive belt tensioner",
+          "quantity": 2,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 128,
+              "setup_time": 7200
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 138,
+              "setup_time": 5400
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 130,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s8"
+        },
+        {
+          "parentid": 4193,
+          "operationid": 4203,
+          "productid": 3991,
+          "code": "YFNG",
+          "pname": "Drive belt tensioner",
+          "quantity": 6,
+          "machines": [
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 61,
+              "setup_time": 5400
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 69,
+              "setup_time": 5400
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 65,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s9"
+        }
+      ]
+    },
+    {
+      "parentid": 17,
+      "operationid": 4204,
+      "productid": 4101,
+      "code": "XHSH",
+      "pname": "Coolant",
+      "quantity": 8,
+      "machines": [
+        {
+          "id": 1,
+          "name": "Machine_01",
+          "oee": 0.935,
+          "execution_time": 64,
+          "setup_time": 7200
+        },
+        {
+          "id": 3,
+          "name": "Machine_03",
+          "oee": 0.869,
+          "execution_time": 69,
+          "setup_time": 3600
+        },
+        {
+          "id": 4,
+          "name": "Machine_04",
+          "oee": 0.923,
+          "execution_time": 65,
+          "setup_time": 7200
+        }
+      ],
+      "name": "s3",
+      "children": [
+        {
+          "parentid": 4204,
+          "operationid": 4205,
+          "productid": 3998,
+          "code": "CZCQ",
+          "pname": "Air filter",
+          "quantity": 5,
+          "machines": [
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 92,
+              "setup_time": 3600
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 103,
+              "setup_time": 7200
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 97,
+              "setup_time": 7200
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 96,
+              "setup_time": 5400
+            }
+          ],
+          "name": "s0"
+        },
+        {
+          "parentid": 4204,
+          "operationid": 4206,
+          "productid": 4112,
+          "code": "CRFI",
+          "pname": "Cabin lighting",
+          "quantity": 5,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 96,
+              "setup_time": 7200
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 92,
+              "setup_time": 5400
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 103,
+              "setup_time": 5400
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 97,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s1"
+        },
+        {
+          "parentid": 4204,
+          "operationid": 4207,
+          "productid": 4151,
+          "code": "VEEA",
+          "pname": "Navigation interface",
+          "quantity": 2,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 128,
+              "setup_time": 5400
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 130,
+              "setup_time": 7200
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 129,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s2"
+        },
+        {
+          "parentid": 4204,
+          "operationid": 4208,
+          "productid": 4111,
+          "code": "BRWX",
+          "pname": "Rear HVAC",
+          "quantity": 6,
+          "machines": [
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 64,
+              "setup_time": 5400
+            }
+          ],
+          "name": "s3"
+        },
+        {
+          "parentid": 4204,
+          "operationid": 4209,
+          "productid": 4109,
+          "code": "VETE",
+          "pname": "Electrochromatic rearview mirror",
+          "quantity": 4,
+          "machines": [
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 103,
+              "setup_time": 5400
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 97,
+              "setup_time": 5400
+            }
+          ],
+          "name": "s4"
+        },
+        {
+          "parentid": 4204,
+          "operationid": 4210,
+          "productid": 4125,
+          "code": "DCKL",
+          "pname": "Auxiliary input (Audio)",
+          "quantity": 9,
+          "machines": [
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 64,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s5"
+        },
+        {
+          "parentid": 4204,
+          "operationid": 4211,
+          "productid": 4121,
+          "code": "FAOZ",
+          "pname": "Compass",
+          "quantity": 5,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 96,
+              "setup_time": 5400
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 92,
+              "setup_time": 7200
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 103,
+              "setup_time": 7200
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 97,
+              "setup_time": 3600
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 96,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s6"
+        },
+        {
+          "parentid": 4204,
+          "operationid": 4212,
+          "productid": 4084,
+          "code": "WETT",
+          "pname": "Air filter",
+          "quantity": 2,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 64,
+              "setup_time": 7200
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 61,
+              "setup_time": 7200
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 69,
+              "setup_time": 3600
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 65,
+              "setup_time": 7200
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 64,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s7"
+        },
+        {
+          "parentid": 4204,
+          "operationid": 4213,
+          "productid": 4123,
+          "code": "MTWU",
+          "pname": "ABS",
+          "quantity": 7,
+          "machines": [
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 92,
+              "setup_time": 5400
+            }
+          ],
+          "name": "s8"
+        },
+        {
+          "parentid": 4204,
+          "operationid": 4214,
+          "productid": 4052,
+          "code": "GKIB",
+          "pname": "Air pump filter",
+          "quantity": 10,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 128,
+              "setup_time": 5400
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 122,
+              "setup_time": 3600
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 138,
+              "setup_time": 7200
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 130,
+              "setup_time": 5400
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 129,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s9"
+        }
+      ]
+    },
+    {
+      "parentid": 17,
+      "operationid": 4215,
+      "productid": 4032,
+      "code": "YGJA",
+      "pname": "Rear HVAC",
+      "quantity": 5,
+      "machines": [
+        {
+          "id": 1,
+          "name": "Machine_01",
+          "oee": 0.935,
+          "execution_time": 64,
+          "setup_time": 5400
+        },
+        {
+          "id": 2,
+          "name": "Machine_02",
+          "oee": 0.977,
+          "execution_time": 61,
+          "setup_time": 3600
+        },
+        {
+          "id": 3,
+          "name": "Machine_03",
+          "oee": 0.869,
+          "execution_time": 69,
+          "setup_time": 7200
+        },
+        {
+          "id": 4,
+          "name": "Machine_04",
+          "oee": 0.923,
+          "execution_time": 65,
+          "setup_time": 7200
+        },
+        {
+          "id": 5,
+          "name": "Machine_05",
+          "oee": 0.929,
+          "execution_time": 64,
+          "setup_time": 5400
+        }
+      ],
+      "name": "s4",
+      "children": [
+        {
+          "parentid": 4215,
+          "operationid": 4216,
+          "productid": 4018,
+          "code": "HLCT",
+          "pname": "Bi-level purge valve",
+          "quantity": 4,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 64,
+              "setup_time": 7200
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 61,
+              "setup_time": 7200
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 69,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s0"
+        },
+        {
+          "parentid": 4215,
+          "operationid": 4217,
+          "productid": 3979,
+          "code": "VIRK",
+          "pname": "Drive shaft",
+          "quantity": 10,
+          "machines": [
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 92,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s1"
+        },
+        {
+          "parentid": 4215,
+          "operationid": 4218,
+          "productid": 4139,
+          "code": "YNXM",
+          "pname": "Evaporative control system",
+          "quantity": 5,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 128,
+              "setup_time": 7200
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 122,
+              "setup_time": 7200
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 138,
+              "setup_time": 5400
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 130,
+              "setup_time": 5400
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 129,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s2"
+        },
+        {
+          "parentid": 4215,
+          "operationid": 4219,
+          "productid": 4092,
+          "code": "UJKP",
+          "pname": "Electrochromatic rearview mirror",
+          "quantity": 2,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 96,
+              "setup_time": 3600
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 92,
+              "setup_time": 3600
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 103,
+              "setup_time": 7200
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 97,
+              "setup_time": 3600
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 96,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s3"
+        },
+        {
+          "parentid": 4215,
+          "operationid": 4220,
+          "productid": 3993,
+          "code": "MIGU",
+          "pname": "Air filter",
+          "quantity": 3,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 128,
+              "setup_time": 3600
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 130,
+              "setup_time": 5400
+            }
+          ],
+          "name": "s4"
+        },
+        {
+          "parentid": 4215,
+          "operationid": 4221,
+          "productid": 4009,
+          "code": "WRUL",
+          "pname": "Bumpers",
+          "quantity": 1,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 128,
+              "setup_time": 5400
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 122,
+              "setup_time": 3600
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 138,
+              "setup_time": 7200
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 130,
+              "setup_time": 5400
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 129,
+              "setup_time": 5400
+            }
+          ],
+          "name": "s5"
+        },
+        {
+          "parentid": 4215,
+          "operationid": 4222,
+          "productid": 3991,
+          "code": "YFNG",
+          "pname": "Drive belt tensioner",
+          "quantity": 9,
+          "machines": [
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 61,
+              "setup_time": 5400
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 69,
+              "setup_time": 5400
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 65,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s6"
+        },
+        {
+          "parentid": 4215,
+          "operationid": 4223,
+          "productid": 4145,
+          "code": "LFAN",
+          "pname": "Manual transmission",
+          "quantity": 7,
+          "machines": [
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 64,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s7"
+        },
+        {
+          "parentid": 4215,
+          "operationid": 4224,
+          "productid": 4151,
+          "code": "VEEA",
+          "pname": "Navigation interface",
+          "quantity": 9,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 128,
+              "setup_time": 5400
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 130,
+              "setup_time": 7200
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 129,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s8"
+        },
+        {
+          "parentid": 4215,
+          "operationid": 4225,
+          "productid": 4041,
+          "code": "XNGP",
+          "pname": "Haldex clutch",
+          "quantity": 9,
+          "machines": [
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 92,
+              "setup_time": 7200
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 103,
+              "setup_time": 3600
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 97,
+              "setup_time": 3600
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 96,
+              "setup_time": 5400
+            }
+          ],
+          "name": "s9"
+        }
+      ]
+    },
+    {
+      "parentid": 17,
+      "operationid": 4226,
+      "productid": 4031,
+      "code": "NFHO",
+      "pname": "Distributor rotor",
+      "quantity": 4,
+      "machines": [
+        {
+          "id": 1,
+          "name": "Machine_01",
+          "oee": 0.935,
+          "execution_time": 64,
+          "setup_time": 3600
+        },
+        {
+          "id": 2,
+          "name": "Machine_02",
+          "oee": 0.977,
+          "execution_time": 61,
+          "setup_time": 7200
+        },
+        {
+          "id": 3,
+          "name": "Machine_03",
+          "oee": 0.869,
+          "execution_time": 69,
+          "setup_time": 5400
+        },
+        {
+          "id": 4,
+          "name": "Machine_04",
+          "oee": 0.923,
+          "execution_time": 65,
+          "setup_time": 5400
+        },
+        {
+          "id": 5,
+          "name": "Machine_05",
+          "oee": 0.929,
+          "execution_time": 64,
+          "setup_time": 3600
+        }
+      ],
+      "name": "s5",
+      "children": [
+        {
+          "parentid": 4226,
+          "operationid": 4227,
+          "productid": 4144,
+          "code": "XGLE",
+          "pname": "Bed extender",
+          "quantity": 10,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 96,
+              "setup_time": 7200
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 92,
+              "setup_time": 7200
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 103,
+              "setup_time": 5400
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 97,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s0"
+        },
+        {
+          "parentid": 4226,
+          "operationid": 4228,
+          "productid": 4078,
+          "code": "PUBA",
+          "pname": "Climate-controlled seats",
+          "quantity": 10,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 128,
+              "setup_time": 3600
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 138,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s1"
+        },
+        {
+          "parentid": 4226,
+          "operationid": 4229,
+          "productid": 4041,
+          "code": "XNGP",
+          "pname": "Haldex clutch",
+          "quantity": 8,
+          "machines": [
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 92,
+              "setup_time": 7200
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 103,
+              "setup_time": 3600
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 97,
+              "setup_time": 3600
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 96,
+              "setup_time": 5400
+            }
+          ],
+          "name": "s2"
+        },
+        {
+          "parentid": 4226,
+          "operationid": 4230,
+          "productid": 4097,
+          "code": "GWZN",
+          "pname": "Bi-level purge valve",
+          "quantity": 6,
+          "machines": [
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 61,
+              "setup_time": 3600
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 69,
+              "setup_time": 3600
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 64,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s3"
+        },
+        {
+          "parentid": 4226,
+          "operationid": 4231,
+          "productid": 3992,
+          "code": "WAQO",
+          "pname": "Seat belts",
+          "quantity": 6,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 96,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s4"
+        },
+        {
+          "parentid": 4226,
+          "operationid": 4232,
+          "productid": 4127,
+          "code": "TKAP",
+          "pname": "Pilot bearing",
+          "quantity": 2,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 96,
+              "setup_time": 3600
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 92,
+              "setup_time": 3600
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 103,
+              "setup_time": 7200
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 97,
+              "setup_time": 3600
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 96,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s5"
+        },
+        {
+          "parentid": 4226,
+          "operationid": 4233,
+          "productid": 4095,
+          "code": "QUZR",
+          "pname": "Oxygen sensor",
+          "quantity": 10,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 128,
+              "setup_time": 7200
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 129,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s6"
+        },
+        {
+          "parentid": 4226,
+          "operationid": 4234,
+          "productid": 4132,
+          "code": "STEY",
+          "pname": "Bolstering",
+          "quantity": 6,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 64,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s7"
+        },
+        {
+          "parentid": 4226,
+          "operationid": 4235,
+          "productid": 4019,
+          "code": "VVXD",
+          "pname": "Seat adjustment",
+          "quantity": 4,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 64,
+              "setup_time": 3600
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 61,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s8"
+        },
+        {
+          "parentid": 4226,
+          "operationid": 4236,
+          "productid": 3975,
+          "code": "AWYA",
+          "pname": "Radio data system",
+          "quantity": 5,
+          "machines": [
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 61,
+              "setup_time": 5400
+            }
+          ],
+          "name": "s9"
+        }
+      ]
+    },
+    {
+      "parentid": 17,
+      "operationid": 4237,
+      "productid": 4000,
+      "code": "LQMQ",
+      "pname": "Headlight washers",
+      "quantity": 4,
+      "machines": [
+        {
+          "id": 1,
+          "name": "Machine_01",
+          "oee": 0.935,
+          "execution_time": 64,
+          "setup_time": 5400
+        },
+        {
+          "id": 2,
+          "name": "Machine_02",
+          "oee": 0.977,
+          "execution_time": 61,
+          "setup_time": 7200
+        },
+        {
+          "id": 3,
+          "name": "Machine_03",
+          "oee": 0.869,
+          "execution_time": 69,
+          "setup_time": 7200
+        },
+        {
+          "id": 4,
+          "name": "Machine_04",
+          "oee": 0.923,
+          "execution_time": 65,
+          "setup_time": 3600
+        }
+      ],
+      "name": "s6",
+      "children": [
+        {
+          "parentid": 4237,
+          "operationid": 4238,
+          "productid": 4066,
+          "code": "UIDX",
+          "pname": "Lip spoiler",
+          "quantity": 3,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 128,
+              "setup_time": 7200
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 122,
+              "setup_time": 3600
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 138,
+              "setup_time": 3600
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 130,
+              "setup_time": 7200
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 129,
+              "setup_time": 5400
+            }
+          ],
+          "name": "s0"
+        },
+        {
+          "parentid": 4237,
+          "operationid": 4239,
+          "productid": 4056,
+          "code": "IAQB",
+          "pname": "Brush guard",
+          "quantity": 7,
+          "machines": [
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 92,
+              "setup_time": 7200
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 103,
+              "setup_time": 5400
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 97,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s1"
+        },
+        {
+          "parentid": 4237,
+          "operationid": 4240,
+          "productid": 3986,
+          "code": "DWPN",
+          "pname": "Air conditioning filter",
+          "quantity": 2,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 128,
+              "setup_time": 7200
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 122,
+              "setup_time": 5400
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 138,
+              "setup_time": 5400
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 129,
+              "setup_time": 5400
+            }
+          ],
+          "name": "s2"
+        },
+        {
+          "parentid": 4237,
+          "operationid": 4241,
+          "productid": 4008,
+          "code": "PYEA",
+          "pname": "Adjustable suspension",
+          "quantity": 4,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 64,
+              "setup_time": 7200
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 69,
+              "setup_time": 5400
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 65,
+              "setup_time": 3600
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 64,
+              "setup_time": 5400
+            }
+          ],
+          "name": "s3"
+        },
+        {
+          "parentid": 4237,
+          "operationid": 4242,
+          "productid": 3982,
+          "code": "YTBB",
+          "pname": "Convertible wind blocker",
+          "quantity": 10,
+          "machines": [
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 103,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s4"
+        },
+        {
+          "parentid": 4237,
+          "operationid": 4243,
+          "productid": 4133,
+          "code": "WHEL",
+          "pname": "Headsets",
+          "quantity": 9,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 128,
+              "setup_time": 5400
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 122,
+              "setup_time": 3600
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 138,
+              "setup_time": 5400
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 130,
+              "setup_time": 5400
+            }
+          ],
+          "name": "s5"
+        },
+        {
+          "parentid": 4237,
+          "operationid": 4244,
+          "productid": 4125,
+          "code": "DCKL",
+          "pname": "Auxiliary input (Audio)",
+          "quantity": 2,
+          "machines": [
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 64,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s6"
+        },
+        {
+          "parentid": 4237,
+          "operationid": 4245,
+          "productid": 3977,
+          "code": "OZZD",
+          "pname": "Clutch pedal",
+          "quantity": 2,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 128,
+              "setup_time": 3600
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 122,
+              "setup_time": 3600
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 130,
+              "setup_time": 3600
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 129,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s7"
+        },
+        {
+          "parentid": 4237,
+          "operationid": 4246,
+          "productid": 4019,
+          "code": "VVXD",
+          "pname": "Seat adjustment",
+          "quantity": 10,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 64,
+              "setup_time": 3600
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 61,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s8"
+        },
+        {
+          "parentid": 4237,
+          "operationid": 4247,
+          "productid": 4118,
+          "code": "FXEA",
+          "pname": "Distributor cap",
+          "quantity": 2,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 64,
+              "setup_time": 7200
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 69,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s9"
+        }
+      ]
+    },
+    {
+      "parentid": 17,
+      "operationid": 4248,
+      "productid": 4071,
+      "code": "SYWG",
+      "pname": "Climate-controlled seat filter",
+      "quantity": 2,
+      "machines": [
+        {
+          "id": 2,
+          "name": "Machine_02",
+          "oee": 0.977,
+          "execution_time": 61,
+          "setup_time": 5400
+        },
+        {
+          "id": 4,
+          "name": "Machine_04",
+          "oee": 0.923,
+          "execution_time": 65,
+          "setup_time": 3600
+        }
+      ],
+      "name": "s7",
+      "children": [
+        {
+          "parentid": 4248,
+          "operationid": 4249,
+          "productid": 4065,
+          "code": "GJXV",
+          "pname": "AC drain hose",
+          "quantity": 2,
+          "machines": [
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 61,
+              "setup_time": 5400
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 65,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s0"
+        },
+        {
+          "parentid": 4248,
+          "operationid": 4250,
+          "productid": 3980,
+          "code": "LRFG",
+          "pname": "Driver state sensor",
+          "quantity": 10,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 96,
+              "setup_time": 7200
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 92,
+              "setup_time": 3600
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 103,
+              "setup_time": 7200
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 97,
+              "setup_time": 7200
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 96,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s1"
+        },
+        {
+          "parentid": 4248,
+          "operationid": 4251,
+          "productid": 3976,
+          "code": "JIWF",
+          "pname": "Auxiliary input (Audio)",
+          "quantity": 4,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 64,
+              "setup_time": 7200
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 61,
+              "setup_time": 5400
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 69,
+              "setup_time": 7200
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 65,
+              "setup_time": 7200
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 64,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s2"
+        },
+        {
+          "parentid": 4248,
+          "operationid": 4252,
+          "productid": 4018,
+          "code": "HLCT",
+          "pname": "Bi-level purge valve",
+          "quantity": 2,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 64,
+              "setup_time": 7200
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 61,
+              "setup_time": 7200
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 69,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s3"
+        },
+        {
+          "parentid": 4248,
+          "operationid": 4253,
+          "productid": 4093,
+          "code": "OEKA",
+          "pname": "Retractable mirrors",
+          "quantity": 4,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 64,
+              "setup_time": 5400
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 61,
+              "setup_time": 5400
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 69,
+              "setup_time": 7200
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 65,
+              "setup_time": 5400
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 64,
+              "setup_time": 5400
+            }
+          ],
+          "name": "s4"
+        },
+        {
+          "parentid": 4248,
+          "operationid": 4254,
+          "productid": 4157,
+          "code": "QOBP",
+          "pname": "PCV valve",
+          "quantity": 1,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 96,
+              "setup_time": 7200
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 92,
+              "setup_time": 7200
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 97,
+              "setup_time": 5400
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 96,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s5"
+        },
+        {
+          "parentid": 4248,
+          "operationid": 4255,
+          "productid": 4144,
+          "code": "XGLE",
+          "pname": "Bed extender",
+          "quantity": 1,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 96,
+              "setup_time": 7200
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 92,
+              "setup_time": 7200
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 103,
+              "setup_time": 5400
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 97,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s6"
+        },
+        {
+          "parentid": 4248,
+          "operationid": 4256,
+          "productid": 4110,
+          "code": "EEPW",
+          "pname": "Power steering fluid",
+          "quantity": 7,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 96,
+              "setup_time": 5400
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 97,
+              "setup_time": 3600
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 96,
+              "setup_time": 5400
+            }
+          ],
+          "name": "s7"
+        },
+        {
+          "parentid": 4248,
+          "operationid": 4257,
+          "productid": 4129,
+          "code": "LSEM",
+          "pname": "Lip spoiler",
+          "quantity": 2,
+          "machines": [
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 130,
+              "setup_time": 7200
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 129,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s8"
+        },
+        {
+          "parentid": 4248,
+          "operationid": 4258,
+          "productid": 4037,
+          "code": "RKDQ",
+          "pname": "Clutch lines & hoses",
+          "quantity": 2,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 128,
+              "setup_time": 7200
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 122,
+              "setup_time": 7200
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 138,
+              "setup_time": 3600
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 130,
+              "setup_time": 5400
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 129,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s9"
+        }
+      ]
+    },
+    {
+      "parentid": 17,
+      "operationid": 4259,
+      "productid": 4027,
+      "code": "ESNJ",
+      "pname": "Power steering",
+      "quantity": 2,
+      "machines": [
+        {
+          "id": 3,
+          "name": "Machine_03",
+          "oee": 0.869,
+          "execution_time": 69,
+          "setup_time": 3600
+        },
+        {
+          "id": 4,
+          "name": "Machine_04",
+          "oee": 0.923,
+          "execution_time": 65,
+          "setup_time": 7200
+        },
+        {
+          "id": 5,
+          "name": "Machine_05",
+          "oee": 0.929,
+          "execution_time": 64,
+          "setup_time": 7200
+        }
+      ],
+      "name": "s8",
+      "children": [
+        {
+          "parentid": 4259,
+          "operationid": 4260,
+          "productid": 4136,
+          "code": "SCII",
+          "pname": "Heated windshield",
+          "quantity": 5,
+          "machines": [
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 65,
+              "setup_time": 5400
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 64,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s0"
+        },
+        {
+          "parentid": 4259,
+          "operationid": 4261,
+          "productid": 4060,
+          "code": "CCHD",
+          "pname": "Self-leveling headlights",
+          "quantity": 7,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 64,
+              "setup_time": 7200
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 61,
+              "setup_time": 7200
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 65,
+              "setup_time": 3600
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 64,
+              "setup_time": 5400
+            }
+          ],
+          "name": "s1"
+        },
+        {
+          "parentid": 4259,
+          "operationid": 4262,
+          "productid": 4017,
+          "code": "CDLW",
+          "pname": "Adjustable pedals",
+          "quantity": 1,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 64,
+              "setup_time": 3600
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 61,
+              "setup_time": 3600
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 69,
+              "setup_time": 5400
+            }
+          ],
+          "name": "s2"
+        },
+        {
+          "parentid": 4259,
+          "operationid": 4263,
+          "productid": 4099,
+          "code": "UTZZ",
+          "pname": "Seatback storage",
+          "quantity": 8,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 96,
+              "setup_time": 3600
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 92,
+              "setup_time": 7200
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 103,
+              "setup_time": 5400
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 97,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s3"
+        },
+        {
+          "parentid": 4259,
+          "operationid": 4264,
+          "productid": 3981,
+          "code": "KKZL",
+          "pname": "Repair kit",
+          "quantity": 10,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 128,
+              "setup_time": 7200
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 122,
+              "setup_time": 5400
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 138,
+              "setup_time": 7200
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 130,
+              "setup_time": 7200
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 129,
+              "setup_time": 5400
+            }
+          ],
+          "name": "s4"
+        },
+        {
+          "parentid": 4259,
+          "operationid": 4265,
+          "productid": 3996,
+          "code": "RTHA",
+          "pname": "Distributor rotor",
+          "quantity": 7,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 64,
+              "setup_time": 7200
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 61,
+              "setup_time": 7200
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 69,
+              "setup_time": 5400
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 65,
+              "setup_time": 7200
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 64,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s5"
+        },
+        {
+          "parentid": 4259,
+          "operationid": 4266,
+          "productid": 4022,
+          "code": "LKPJ",
+          "pname": "Crankcase ventilation filter",
+          "quantity": 5,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 64,
+              "setup_time": 3600
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 61,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s6"
+        },
+        {
+          "parentid": 4259,
+          "operationid": 4267,
+          "productid": 4062,
+          "code": "HEIL",
+          "pname": "Diesel engine",
+          "quantity": 8,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 128,
+              "setup_time": 5400
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 122,
+              "setup_time": 5400
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 130,
+              "setup_time": 5400
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 129,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s7"
+        },
+        {
+          "parentid": 4259,
+          "operationid": 4268,
+          "productid": 4116,
+          "code": "YCDN",
+          "pname": "Parking assist",
+          "quantity": 3,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 96,
+              "setup_time": 5400
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 92,
+              "setup_time": 3600
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 103,
+              "setup_time": 5400
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 97,
+              "setup_time": 7200
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 96,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s8"
+        },
+        {
+          "parentid": 4259,
+          "operationid": 4269,
+          "productid": 4149,
+          "code": "YIFK",
+          "pname": "Pilot bearing",
+          "quantity": 4,
+          "machines": [
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 97,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s9"
+        }
+      ]
+    },
+    {
+      "parentid": 17,
+      "operationid": 4270,
+      "productid": 4167,
+      "code": "JGXY",
+      "pname": "Gauges",
+      "quantity": 1,
+      "machines": [
+        {
+          "id": 1,
+          "name": "Machine_01",
+          "oee": 0.935,
+          "execution_time": 128,
+          "setup_time": 5400
+        },
+        {
+          "id": 2,
+          "name": "Machine_02",
+          "oee": 0.977,
+          "execution_time": 122,
+          "setup_time": 5400
+        },
+        {
+          "id": 4,
+          "name": "Machine_04",
+          "oee": 0.923,
+          "execution_time": 130,
+          "setup_time": 3600
+        }
+      ],
+      "name": "s9",
+      "children": [
+        {
+          "parentid": 4270,
+          "operationid": 4271,
+          "productid": 4144,
+          "code": "XGLE",
+          "pname": "Bed extender",
+          "quantity": 3,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 96,
+              "setup_time": 7200
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 92,
+              "setup_time": 7200
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 103,
+              "setup_time": 5400
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 97,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s0"
+        },
+        {
+          "parentid": 4270,
+          "operationid": 4272,
+          "productid": 4012,
+          "code": "ZUCB",
+          "pname": "Air filter",
+          "quantity": 6,
+          "machines": [
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 61,
+              "setup_time": 3600
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 69,
+              "setup_time": 3600
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 65,
+              "setup_time": 3600
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 64,
+              "setup_time": 5400
+            }
+          ],
+          "name": "s1"
+        },
+        {
+          "parentid": 4270,
+          "operationid": 4273,
+          "productid": 4106,
+          "code": "SWIK",
+          "pname": "Adaptive headlights",
+          "quantity": 5,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 96,
+              "setup_time": 7200
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 92,
+              "setup_time": 5400
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 97,
+              "setup_time": 3600
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 96,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s2"
+        },
+        {
+          "parentid": 4270,
+          "operationid": 4274,
+          "productid": 4001,
+          "code": "CVZZ",
+          "pname": "Heated air temperature sensor",
+          "quantity": 10,
+          "machines": [
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 96,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s3"
+        },
+        {
+          "parentid": 4270,
+          "operationid": 4275,
+          "productid": 4084,
+          "code": "WETT",
+          "pname": "Air filter",
+          "quantity": 3,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 64,
+              "setup_time": 7200
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 61,
+              "setup_time": 7200
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 69,
+              "setup_time": 3600
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 65,
+              "setup_time": 7200
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 64,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s4"
+        },
+        {
+          "parentid": 4270,
+          "operationid": 4276,
+          "productid": 3974,
+          "code": "AMVN",
+          "pname": "Descent control",
+          "quantity": 8,
+          "machines": [
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 92,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s5"
+        },
+        {
+          "parentid": 4270,
+          "operationid": 4277,
+          "productid": 4145,
+          "code": "LFAN",
+          "pname": "Manual transmission",
+          "quantity": 7,
+          "machines": [
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 64,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s6"
+        },
+        {
+          "parentid": 4270,
+          "operationid": 4278,
+          "productid": 4116,
+          "code": "YCDN",
+          "pname": "Parking assist",
+          "quantity": 9,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 96,
+              "setup_time": 5400
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 92,
+              "setup_time": 3600
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.869,
+              "execution_time": 103,
+              "setup_time": 5400
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.923,
+              "execution_time": 97,
+              "setup_time": 7200
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 96,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s7"
+        },
+        {
+          "parentid": 4270,
+          "operationid": 4279,
+          "productid": 4050,
+          "code": "TJTC",
+          "pname": "Rear seat",
+          "quantity": 6,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.935,
+              "execution_time": 96,
+              "setup_time": 7200
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 92,
+              "setup_time": 5400
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.929,
+              "execution_time": 96,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s8"
+        },
+        {
+          "parentid": 4270,
+          "operationid": 4280,
+          "productid": 4070,
+          "code": "MEFQ",
+          "pname": "Automatic door unlock",
+          "quantity": 5,
+          "machines": [
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.977,
+              "execution_time": 122,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s9"
+        }
+      ]
+    }
+  ]
+}

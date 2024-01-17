@@ -1,0 +1,413 @@
+{
+  "operationid": 1,
+  "productid": 200,
+  "code": "UJFG",
+  "pname": "Brake pedal spring",
+  "parentid": null,
+  "start_date": "2023-01-01 00:00:00.000000",
+  "delivery_date": "2023-03-01 00:00:00.000000",
+  "quantity": 10,
+  "machines": [
+    {
+      "id": 1,
+      "name": "Machine_01",
+      "oee": 0.8,
+      "execution_time": 112,
+      "setup_time": 3600
+    },
+    {
+      "id": 2,
+      "name": "Machine_02",
+      "oee": 0.915,
+      "execution_time": 98,
+      "setup_time": 7200
+    },
+    {
+      "id": 5,
+      "name": "Machine_05",
+      "oee": 0.991,
+      "execution_time": 90,
+      "setup_time": 7200
+    },
+    {
+      "id": 7,
+      "name": "Machine_07",
+      "oee": 0.897,
+      "execution_time": 100,
+      "setup_time": 5400
+    }
+  ],
+  "metainfo": {
+    "operations_list": [
+      1,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206
+    ],
+    "machines_list": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "maintenances": [
+      {
+        "id": 209,
+        "machineid": 2,
+        "start_date": "2023-01-20 22:00:00.000000",
+        "end_date": "2023-01-21 03:00:00.000000"
+      },
+      {
+        "id": 219,
+        "machineid": 2,
+        "start_date": "2023-02-19 05:00:00.000000",
+        "end_date": "2023-02-19 11:00:00.000000"
+      },
+      {
+        "id": 211,
+        "machineid": 3,
+        "start_date": "2023-01-28 02:00:00.000000",
+        "end_date": "2023-01-28 05:00:00.000000"
+      },
+      {
+        "id": 220,
+        "machineid": 3,
+        "start_date": "2023-02-21 09:00:00.000000",
+        "end_date": "2023-02-21 12:00:00.000000"
+      },
+      {
+        "id": 212,
+        "machineid": 5,
+        "start_date": "2023-01-27 20:00:00.000000",
+        "end_date": "2023-01-27 23:00:00.000000"
+      },
+      {
+        "id": 213,
+        "machineid": 6,
+        "start_date": "2023-01-25 10:00:00.000000",
+        "end_date": "2023-01-25 16:00:00.000000"
+      },
+      {
+        "id": 221,
+        "machineid": 6,
+        "start_date": "2023-02-20 14:00:00.000000",
+        "end_date": "2023-02-20 17:00:00.000000"
+      },
+      {
+        "id": 207,
+        "machineid": 7,
+        "start_date": "2023-01-02 12:00:00.000000",
+        "end_date": "2023-01-02 15:00:00.000000"
+      },
+      {
+        "id": 210,
+        "machineid": 7,
+        "start_date": "2023-01-19 07:00:00.000000",
+        "end_date": "2023-01-19 10:00:00.000000"
+      },
+      {
+        "id": 214,
+        "machineid": 7,
+        "start_date": "2023-01-27 22:00:00.000000",
+        "end_date": "2023-01-28 04:00:00.000000"
+      },
+      {
+        "id": 216,
+        "machineid": 7,
+        "start_date": "2023-01-31 00:00:00.000000",
+        "end_date": "2023-01-31 06:00:00.000000"
+      },
+      {
+        "id": 222,
+        "machineid": 7,
+        "start_date": "2023-02-25 03:00:00.000000",
+        "end_date": "2023-02-25 06:00:00.000000"
+      },
+      {
+        "id": 215,
+        "machineid": 8,
+        "start_date": "2023-01-25 14:00:00.000000",
+        "end_date": "2023-01-25 17:00:00.000000"
+      },
+      {
+        "id": 223,
+        "machineid": 8,
+        "start_date": "2023-02-25 04:00:00.000000",
+        "end_date": "2023-02-25 08:00:00.000000"
+      },
+      {
+        "id": 218,
+        "machineid": 9,
+        "start_date": "2023-02-18 13:00:00.000000",
+        "end_date": "2023-02-18 17:00:00.000000"
+      },
+      {
+        "id": 224,
+        "machineid": 9,
+        "start_date": "2023-02-20 06:00:00.000000",
+        "end_date": "2023-02-20 12:00:00.000000"
+      },
+      {
+        "id": 208,
+        "machineid": 10,
+        "start_date": "2023-01-12 16:00:00.000000",
+        "end_date": "2023-01-12 22:00:00.000000"
+      },
+      {
+        "id": 217,
+        "machineid": 10,
+        "start_date": "2023-01-30 10:00:00.000000",
+        "end_date": "2023-01-30 13:00:00.000000"
+      },
+      {
+        "id": 225,
+        "machineid": 10,
+        "start_date": "2023-02-21 00:00:00.000000",
+        "end_date": "2023-02-21 03:00:00.000000"
+      }
+    ]
+  },
+  "name": "root",
+  "children": [
+    {
+      "parentid": 1,
+      "operationid": 201,
+      "productid": 99,
+      "code": "OXAJ",
+      "pname": "Drive system",
+      "quantity": 10,
+      "machines": [
+        {
+          "id": 5,
+          "name": "Machine_05",
+          "oee": 0.991,
+          "execution_time": 121,
+          "setup_time": 5400
+        },
+        {
+          "id": 6,
+          "name": "Machine_06",
+          "oee": 0.796,
+          "execution_time": 150,
+          "setup_time": 7200
+        },
+        {
+          "id": 9,
+          "name": "Machine_09",
+          "oee": 0.945,
+          "execution_time": 126,
+          "setup_time": 5400
+        }
+      ],
+      "name": "s0",
+      "children": [
+        {
+          "parentid": 201,
+          "operationid": 202,
+          "productid": 195,
+          "code": "UJKP",
+          "pname": "Heater hoses",
+          "quantity": 10,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.8,
+              "execution_time": 150,
+              "setup_time": 3600
+            },
+            {
+              "id": 6,
+              "name": "Machine_06",
+              "oee": 0.796,
+              "execution_time": 150,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s0"
+        },
+        {
+          "parentid": 201,
+          "operationid": 203,
+          "productid": 108,
+          "code": "DDFI",
+          "pname": "Diesel engine",
+          "quantity": 10,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 0.8,
+              "execution_time": 150,
+              "setup_time": 5400
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.9,
+              "execution_time": 133,
+              "setup_time": 7200
+            },
+            {
+              "id": 9,
+              "name": "Machine_09",
+              "oee": 0.945,
+              "execution_time": 126,
+              "setup_time": 7200
+            },
+            {
+              "id": 10,
+              "name": "Machine_10",
+              "oee": 0.891,
+              "execution_time": 134,
+              "setup_time": 5400
+            }
+          ],
+          "name": "s1"
+        }
+      ]
+    },
+    {
+      "parentid": 1,
+      "operationid": 204,
+      "productid": 11,
+      "code": "QPDR",
+      "pname": "Fuel system",
+      "quantity": 10,
+      "machines": [
+        {
+          "id": 1,
+          "name": "Machine_01",
+          "oee": 0.8,
+          "execution_time": 75,
+          "setup_time": 3600
+        },
+        {
+          "id": 3,
+          "name": "Machine_03",
+          "oee": 0.9,
+          "execution_time": 66,
+          "setup_time": 3600
+        },
+        {
+          "id": 8,
+          "name": "Machine_08",
+          "oee": 0.838,
+          "execution_time": 71,
+          "setup_time": 3600
+        },
+        {
+          "id": 9,
+          "name": "Machine_09",
+          "oee": 0.945,
+          "execution_time": 63,
+          "setup_time": 5400
+        }
+      ],
+      "name": "s1",
+      "children": [
+        {
+          "parentid": 204,
+          "operationid": 205,
+          "productid": 67,
+          "code": "UKGG",
+          "pname": "Air filter",
+          "quantity": 10,
+          "machines": [
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.915,
+              "execution_time": 131,
+              "setup_time": 7200
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.858,
+              "execution_time": 139,
+              "setup_time": 7200
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.991,
+              "execution_time": 121,
+              "setup_time": 3600
+            },
+            {
+              "id": 8,
+              "name": "Machine_08",
+              "oee": 0.838,
+              "execution_time": 143,
+              "setup_time": 3600
+            },
+            {
+              "id": 10,
+              "name": "Machine_10",
+              "oee": 0.891,
+              "execution_time": 134,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s0"
+        },
+        {
+          "parentid": 204,
+          "operationid": 206,
+          "productid": 131,
+          "code": "MNJY",
+          "pname": "Retractable mirrors",
+          "quantity": 10,
+          "machines": [
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.991,
+              "execution_time": 90,
+              "setup_time": 7200
+            },
+            {
+              "id": 6,
+              "name": "Machine_06",
+              "oee": 0.796,
+              "execution_time": 113,
+              "setup_time": 3600
+            },
+            {
+              "id": 7,
+              "name": "Machine_07",
+              "oee": 0.897,
+              "execution_time": 100,
+              "setup_time": 3600
+            },
+            {
+              "id": 8,
+              "name": "Machine_08",
+              "oee": 0.838,
+              "execution_time": 107,
+              "setup_time": 5400
+            },
+            {
+              "id": 10,
+              "name": "Machine_10",
+              "oee": 0.891,
+              "execution_time": 101,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "operationid": 1,
+  "productid": 196,
+  "code": "YBIK",
+  "pname": "Knee airbags",
+  "parentid": null,
+  "start_date": "2023-01-01 00:00:00.000000",
+  "delivery_date": "2023-02-01 00:00:00.000000",
+  "quantity": 7,
+  "machines": [
+    {
+      "id": 1,
+      "name": "Machine_01",
+      "oee": 0.802,
+      "execution_time": 149,
+      "setup_time": 7200
+    },
+    {
+      "id": 2,
+      "name": "Machine_02",
+      "oee": 0.822,
+      "execution_time": 145,
+      "setup_time": 3600
+    },
+    {
+      "id": 3,
+      "name": "Machine_03",
+      "oee": 0.814,
+      "execution_time": 147,
+      "setup_time": 7200
+    }
+  ],
+  "metainfo": {
+    "operations_list": [
+      1,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206
+    ],
+    "machines_list": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "maintenances": [
+      {
+        "id": 208,
+        "machineid": 2,
+        "start_date": "2023-01-27 22:00:00.000000",
+        "end_date": "2023-01-28 03:00:00.000000"
+      },
+      {
+        "id": 207,
+        "machineid": 5,
+        "start_date": "2023-01-19 16:00:00.000000",
+        "end_date": "2023-01-19 22:00:00.000000"
+      }
+    ]
+  },
+  "name": "root",
+  "children": [
+    {
+      "parentid": 1,
+      "operationid": 201,
+      "productid": 195,
+      "code": "AYTA",
+      "pname": "D-Pillar",
+      "quantity": 7,
+      "machines": [
+        {
+          "id": 1,
+          "name": "Machine_01",
+          "oee": 0.802,
+          "execution_time": 112,
+          "setup_time": 5400
+        },
+        {
+          "id": 2,
+          "name": "Machine_02",
+          "oee": 0.822,
+          "execution_time": 109,
+          "setup_time": 7200
+        },
+        {
+          "id": 3,
+          "name": "Machine_03",
+          "oee": 0.814,
+          "execution_time": 110,
+          "setup_time": 3600
+        },
+        {
+          "id": 4,
+          "name": "Machine_04",
+          "oee": 0.812,
+          "execution_time": 110,
+          "setup_time": 7200
+        },
+        {
+          "id": 5,
+          "name": "Machine_05",
+          "oee": 0.871,
+          "execution_time": 103,
+          "setup_time": 5400
+        }
+      ],
+      "name": "s0",
+      "children": [
+        {
+          "parentid": 201,
+          "operationid": 202,
+          "productid": 11,
+          "code": "KCSV",
+          "pname": "Rain-sensing wipers",
+          "quantity": 5,
+          "machines": [
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.822,
+              "execution_time": 109,
+              "setup_time": 5400
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.871,
+              "execution_time": 103,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s0"
+        },
+        {
+          "parentid": 201,
+          "operationid": 203,
+          "productid": 131,
+          "code": "URFR",
+          "pname": "Rear spoiler",
+          "quantity": 8,
+          "machines": [
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 0.822,
+              "execution_time": 72,
+              "setup_time": 5400
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.814,
+              "execution_time": 73,
+              "setup_time": 5400
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 0.812,
+              "execution_time": 73,
+              "setup_time": 3600
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.871,
+              "execution_time": 68,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s1"
+        }
+      ]
+    },
+    {
+      "parentid": 1,
+      "operationid": 204,
+      "productid": 104,
+      "code": "SLUP",
+      "pname": "Manifold heat control valve",
+      "quantity": 5,
+      "machines": [
+        {
+          "id": 1,
+          "name": "Machine_01",
+          "oee": 0.802,
+          "execution_time": 74,
+          "setup_time": 5400
+        },
+        {
+          "id": 2,
+          "name": "Machine_02",
+          "oee": 0.822,
+          "execution_time": 72,
+          "setup_time": 3600
+        },
+        {
+          "id": 5,
+          "name": "Machine_05",
+          "oee": 0.871,
+          "execution_time": 68,
+          "setup_time": 5400
+        }
+      ],
+      "name": "s1",
+      "children": [
+        {
+          "parentid": 204,
+          "operationid": 205,
+          "productid": 123,
+          "code": "EVMG",
+          "pname": "Backup assistance",
+          "quantity": 6,
+          "machines": [
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.871,
+              "execution_time": 137,
+              "setup_time": 7200
+            }
+          ],
+          "name": "s0"
+        },
+        {
+          "parentid": 204,
+          "operationid": 206,
+          "productid": 150,
+          "code": "ECPU",
+          "pname": "Precrash system",
+          "quantity": 4,
+          "machines": [
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.814,
+              "execution_time": 73,
+              "setup_time": 3600
+            }
+          ],
+          "name": "s1"
+        }
+      ]
+    }
+  ]
+}
